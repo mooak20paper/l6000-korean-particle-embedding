@@ -1,0 +1,48 @@
+{
+  "version": "test_retention_scale_selected_20261019",
+  "registered_at_utc": "2026-10-18T22:45:01.562575+00:00",
+  "status": "REGISTERED_WAITING_ALL9_DEVELOPMENT_RUNS",
+  "user_instruction": "모든 실험이 완료되면 훈련 개수별로 가장 성능이 좋은 람다별로 test 진행해서 결과 분석해줘",
+  "train_sizes": [
+    1200,
+    2000,
+    4000,
+    6000
+  ],
+  "candidate_lambdas": [
+    0,
+    1,
+    10
+  ],
+  "checkpoint": "fixed 1epoch endpoint only",
+  "eligibility": "development KorSTS Spearman >= 0.9 * development baseline",
+  "selection_order": [
+    "Validation 10-type macro descending",
+    "development KorSTS Spearman descending",
+    "lambda ascending for exact tie"
+  ],
+  "if_no_eligible_model": "report no eligible candidate for that size; do not relax threshold",
+  "selection_data_only": "experiments/retention_scale_20261018/reports/completed09/comparison.json",
+  "selection_frozen_before_new_test_inference": true,
+  "evaluation_data": "existing human-approved Test600 and KLUE-STS519",
+  "reused_references": "hash-verified identical baseline and any selected previously scored adapter only",
+  "primary_test_comparisons": "each of four selected models vs baseline",
+  "secondary_test_comparisons": "2000 vs1200,4000 vs2000,6000 vs4000",
+  "statistics": {
+    "test": "exact two-sided McNemar; Holm adjustment over the full seven contrasts; paired domain x type stratified bootstrap10000, seed17",
+    "sts": "paired sentence-pair bootstrap10000, seed17; unadjusted exploratory95% CIs; Spearman primary and Pearson secondary",
+    "sts_allowance": "baseline-relative10%, not10score points"
+  },
+  "inference": "same CPU FP32 / CLS / L2 / cosine FP64 / max160 no truncation / batch12 / threads6 / epsilon1e-6 as existing references",
+  "preserved_constraints": [
+    "no Test-based lambda or checkpoint reselection",
+    "no training/data/human-review changes",
+    "no use of newly prepared independent Test600 or additional STS2000",
+    "all inference derivatives permanently evaluation-only"
+  ],
+  "interpretation": [
+    "repeated previously observed Test and KLUE follow-up; not independent confirmation",
+    "single training seed17; evaluation bootstrap excludes training variability",
+    "size and chosen lambda/update counts/retention exposure may change together; not pure sample-size effect"
+  ]
+}

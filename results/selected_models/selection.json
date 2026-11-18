@@ -1,0 +1,74 @@
+{
+  "status": "FROZEN_FROM_DEVELOPMENT_ONLY",
+  "frozen_at_utc": "2026-10-18T23:11:36.714762+00:00",
+  "rule": {
+    "path": "evaluation_only/test_retention_scale_selected_20261019/selection_rule.json",
+    "sha256": "e44a30af69798601f47dc7829c4a12225f59d3e18c811a4ca001aece04953f90",
+    "bytes": 2410
+  },
+  "development_comparison": {
+    "path": "experiments/retention_scale_20261018/reports/completed09/comparison.json",
+    "sha256": "2e6867cfffb7614dff30345ed1cdc4f88cc37106ebd27a8a235764ca78ac076a",
+    "bytes": 34894
+  },
+  "selected": [
+    {
+      "run_id": "retain1200_lambda1_C_seed17_20261018",
+      "train_rows": 1200,
+      "lambda": 1,
+      "step": 300,
+      "epoch_fraction": 1.0,
+      "correct": 594,
+      "macro_accuracy_percent": 99.01366120218579,
+      "sts_score100": 79.62594953115368,
+      "sts_relative_decline_percent": 4.866921030414738,
+      "eligible": true,
+      "mean_cosine_margin": 0.23483751381436985,
+      "model_id": "C1200_retention_lambda1_step300"
+    },
+    {
+      "run_id": "retain2000_lambda10_C_seed17_20261018",
+      "train_rows": 2000,
+      "lambda": 10,
+      "step": 500,
+      "epoch_fraction": 1.0,
+      "correct": 595,
+      "macro_accuracy_percent": 99.1775956284153,
+      "sts_score100": 80.27633312682674,
+      "sts_relative_decline_percent": 4.089875427417205,
+      "eligible": true,
+      "mean_cosine_margin": 0.3028914278248946,
+      "model_id": "C2000_retention_lambda10_step500"
+    },
+    {
+      "run_id": "retain4000_lambda10_C_seed17_20261018",
+      "train_rows": 4000,
+      "lambda": 10,
+      "step": 1000,
+      "epoch_fraction": 1.0,
+      "correct": 599,
+      "macro_accuracy_percent": 99.83333333333333,
+      "sts_score100": 80.79336688831823,
+      "sts_relative_decline_percent": 3.4721494982253978,
+      "eligible": true,
+      "mean_cosine_margin": 0.38692065368096035,
+      "model_id": "C4000_retention_lambda10_step1000"
+    },
+    {
+      "run_id": "retain6000_lambda10_C_seed17_20261018",
+      "train_rows": 6000,
+      "lambda": 10,
+      "step": 1500,
+      "epoch_fraction": 1.0,
+      "correct": 599,
+      "macro_accuracy_percent": 99.83333333333333,
+      "sts_score100": 82.00530558988739,
+      "sts_relative_decline_percent": 2.0241861033579234,
+      "eligible": true,
+      "mean_cosine_margin": 0.40190799271066985,
+      "model_id": "C6000_retention_lambda10_step1500"
+    }
+  ],
+  "test_scores_used": false,
+  "selection_rule_changed": false
+}

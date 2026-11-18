@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-19",
+  "authority": "User requested the name L6000 for the 6000-row lambda=10 model.",
+  "models": {
+    "L6000": {
+      "display_name": "L6000",
+      "internal_model_id": "C6000_retention_lambda10_step1500",
+      "development_run_id": "retain6000_lambda10_C_seed17_20261018",
+      "train_rows": 6000,
+      "retention_lambda": 10,
+      "epoch": 1,
+      "step": 1500,
+      "seed": 17,
+      "source_evaluation_manifest": "evaluation_only/test_retention_scale_selected_20261019/manifest.json",
+      "scope": "Display alias for the existing fixed checkpoint; does not change model weights, results, or selection history."
+    }
+  }
+}

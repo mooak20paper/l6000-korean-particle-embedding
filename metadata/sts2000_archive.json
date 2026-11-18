@@ -1,0 +1,11 @@
+{
+  "scope": "Public identification of the separately preserved original result archive; archive payload is not included.",
+  "source_metadata_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+  "original_archive_sha256": "9f32c3134898377dab2f1048cc4e75c0ed1359e8862611d312228f1b6d9b5506",
+  "original_archive_bytes": 96553847,
+  "original_archive_preservation_verification": "GitHub SHA256 digest",
+  "raw_vectors_in_public_repository": false,
+  "public_numeric_results": "results/sts2000/summary.json",
+  "public_file_integrity_manifest": "MANIFEST.json",
+  "new_experiment_executed": false
+}

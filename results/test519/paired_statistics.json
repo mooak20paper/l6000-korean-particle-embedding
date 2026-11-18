@@ -1,0 +1,188 @@
+{
+  "replicates": 10000,
+  "seed": 17,
+  "intervals": "individual percentile95%; not simultaneous or post-selection adjusted",
+  "holm_family": "all ten Test model pairs",
+  "pairs": [
+    {
+      "reference": "baseline",
+      "comparison": "l6000",
+      "new_only_correct": 310,
+      "reference_only_correct": 1,
+      "accuracy_difference_pp": 51.49999999999999,
+      "accuracy_difference_ci95_pp": [
+        47.66666666666667,
+        55.333333333333336
+      ],
+      "exact_mcnemar_p": 1.495739415207901e-91,
+      "spearman_difference": -0.043562740351585694,
+      "spearman_difference_ci95": [
+        -0.06323327361450408,
+        -0.025286811261209186
+      ],
+      "holm_p": 1.1965915321663208e-90
+    },
+    {
+      "reference": "baseline",
+      "comparison": "kure-v1",
+      "new_only_correct": 9,
+      "reference_only_correct": 20,
+      "accuracy_difference_pp": -1.8333333333333313,
+      "accuracy_difference_ci95_pp": [
+        -3.500000000000003,
+        -0.16666666666666496
+      ],
+      "exact_mcnemar_p": 0.06142834573984146,
+      "spearman_difference": 0.0003101724082423818,
+      "spearman_difference_ci95": [
+        -0.008771179091312795,
+        0.009616975896390193
+      ],
+      "holm_p": 0.18428503721952438
+    },
+    {
+      "reference": "baseline",
+      "comparison": "bge-m3-ko",
+      "new_only_correct": 13,
+      "reference_only_correct": 18,
+      "accuracy_difference_pp": -0.8333333333333304,
+      "accuracy_difference_ci95_pp": [
+        -2.6666666666666616,
+        0.8333333333333359
+      ],
+      "exact_mcnemar_p": 0.47312965989112854,
+      "spearman_difference": 0.009419823576142128,
+      "spearman_difference_ci95": [
+        0.00023209908979270887,
+        0.019536681427473137
+      ],
+      "holm_p": 0.5263519287109375
+    },
+    {
+      "reference": "baseline",
+      "comparison": "bge-m3-korean",
+      "new_only_correct": 41,
+      "reference_only_correct": 20,
+      "accuracy_difference_pp": 3.4999999999999973,
+      "accuracy_difference_ci95_pp": [
+        1.1666666666666659,
+        6.0
+      ],
+      "exact_mcnemar_p": 0.009853448195259268,
+      "spearman_difference": 0.0010125030121259648,
+      "spearman_difference_ci95": [
+        -0.011441641332080576,
+        0.013996351176378652
+      ],
+      "holm_p": 0.03941379278103707
+    },
+    {
+      "reference": "l6000",
+      "comparison": "kure-v1",
+      "new_only_correct": 1,
+      "reference_only_correct": 321,
+      "accuracy_difference_pp": -53.33333333333332,
+      "accuracy_difference_ci95_pp": [
+        -57.166666666666664,
+        -49.50000000000001
+      ],
+      "exact_mcnemar_p": 7.5609073128279e-95,
+      "spearman_difference": 0.043872912759828075,
+      "spearman_difference_ci95": [
+        0.02485082285269563,
+        0.06458952731697762
+      ],
+      "holm_p": 7.5609073128279e-94
+    },
+    {
+      "reference": "l6000",
+      "comparison": "bge-m3-ko",
+      "new_only_correct": 1,
+      "reference_only_correct": 315,
+      "accuracy_difference_pp": -52.33333333333332,
+      "accuracy_difference_ci95_pp": [
+        -56.166666666666664,
+        -48.50000000000001
+      ],
+      "exact_mcnemar_p": 4.749092494199766e-93,
+      "spearman_difference": 0.05298256392772782,
+      "spearman_difference_ci95": [
+        0.033309453903083666,
+        0.0747095285735152
+      ],
+      "holm_p": 4.2741832447797894e-92
+    },
+    {
+      "reference": "l6000",
+      "comparison": "bge-m3-korean",
+      "new_only_correct": 2,
+      "reference_only_correct": 290,
+      "accuracy_difference_pp": -48.0,
+      "accuracy_difference_ci95_pp": [
+        -51.83333333333333,
+        -44.166666666666664
+      ],
+      "exact_mcnemar_p": 1.0752312798820938e-83,
+      "spearman_difference": 0.04457524336371166,
+      "spearman_difference_ci95": [
+        0.02373179419674757,
+        0.06638258795749635
+      ],
+      "holm_p": 7.526618959174657e-83
+    },
+    {
+      "reference": "kure-v1",
+      "comparison": "bge-m3-ko",
+      "new_only_correct": 13,
+      "reference_only_correct": 7,
+      "accuracy_difference_pp": 1.0000000000000009,
+      "accuracy_difference_ci95_pp": [
+        -0.3333333333333355,
+        2.3333333333333375
+      ],
+      "exact_mcnemar_p": 0.26317596435546875,
+      "spearman_difference": 0.009109651167899746,
+      "spearman_difference_ci95": [
+        0.0026063102119801315,
+        0.01660592003632479
+      ],
+      "holm_p": 0.5263519287109375
+    },
+    {
+      "reference": "kure-v1",
+      "comparison": "bge-m3-korean",
+      "new_only_correct": 50,
+      "reference_only_correct": 18,
+      "accuracy_difference_pp": 5.333333333333329,
+      "accuracy_difference_ci95_pp": [
+        2.833333333333332,
+        7.833333333333337
+      ],
+      "exact_mcnemar_p": 0.00013083876154198454,
+      "spearman_difference": 0.000702330603883583,
+      "spearman_difference_ci95": [
+        -0.0123621823499022,
+        0.014282442342235826
+      ],
+      "holm_p": 0.0007850325692519073
+    },
+    {
+      "reference": "bge-m3-ko",
+      "comparison": "bge-m3-korean",
+      "new_only_correct": 47,
+      "reference_only_correct": 21,
+      "accuracy_difference_pp": 4.333333333333328,
+      "accuracy_difference_ci95_pp": [
+        1.8333333333333313,
+        6.833333333333336
+      ],
+      "exact_mcnemar_p": 0.0021862431776861714,
+      "spearman_difference": -0.008407320564016163,
+      "spearman_difference_ci95": [
+        -0.020561072230669514,
+        0.0035432112255862898
+      ],
+      "holm_p": 0.010931215888430858
+    }
+  ]
+}

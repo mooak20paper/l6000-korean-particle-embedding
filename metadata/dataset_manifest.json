@@ -1,0 +1,75 @@
+{
+  "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+  "inputs": [
+    {
+      "key": "train6000",
+      "rows": 6000,
+      "sha256": "a5d3837c937aa2098105d0d8a9c287ddb4beddfca20959304ecdef78dbcb2934",
+      "bytes": 14062650,
+      "use": "Train only",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "validation600",
+      "rows": 600,
+      "sha256": "0d2fd17d5777967aedced46968c17543e0eddf5a5ce7c3ea30533f19e5415cd9",
+      "bytes": 940460,
+      "use": "Development only; excluded from training",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "retention2000",
+      "rows": 2000,
+      "sha256": "92eb8409502345de810c58b2e4871a254c2ecbe1efefd0c7bfbc0bf21237348d",
+      "bytes": 1196890,
+      "use": "Frozen teacher cosine targets; KorSTS train",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "korsts1376",
+      "rows": 1376,
+      "sha256": "fc4089fd26aa954a79bc197dad7e2fcf490a65a05c923dc8f4369ebf7d558488",
+      "bytes": 425009,
+      "use": "Development STS; never retention targets",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "test600",
+      "rows": 600,
+      "sha256": "5a966552aed4e75e2a228958eece1cb9d36be94006d5fd6e8e7ec1b139fbff3e",
+      "bytes": 404067,
+      "use": "Permanent evaluation only",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "klue519",
+      "rows": 519,
+      "sha256": "b6a0ae0c370e21687f7eef0fdea872a328bb2ecbdb020c546cb870d28606bf80",
+      "bytes": 454638,
+      "use": "KLUE-STS v1.1 dev; permanent evaluation only",
+      "included_in_public_candidate": false
+    },
+    {
+      "key": "klue2000",
+      "rows": 2000,
+      "sha256": "7883153d5898e3e0726d7ce0def135e6a1bd970b7c1a7ad6802aea1d36f1a702",
+      "bytes": 1389123,
+      "use": "Already observed KLUE public train subset; permanent evaluation only",
+      "included_in_public_candidate": false
+    }
+  ],
+  "training_origin_counts": {
+    "article_based": 3055,
+    "synthetic": 2945
+  },
+  "human_review_counts": {
+    "train": 1500,
+    "validation": 600,
+    "test": 600
+  },
+  "test_positive_forms": {
+    "simple": 181,
+    "diverse": 419
+  },
+  "unreleased_new_test_or_locked_sts_included": false
+}

@@ -1,0 +1,874 @@
+{
+  "status": "COMPLETED",
+  "fresh_inference": true,
+  "models": {
+    "baseline": {
+      "n": 600,
+      "correct": 261,
+      "accuracy": 0.435,
+      "macro_accuracy_10": 0.43499999999999994,
+      "ties": 0,
+      "hn_confusion_count": 339,
+      "mean_delta": -0.005482473701909677,
+      "klue_spearman": 0.8772886175882912,
+      "klue_pearson": 0.8714629477735412,
+      "breakdown": {
+        "domain": {
+          "계약": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335,
+            "mean_delta": -0.008823879801945
+          },
+          "금융": {
+            "n": 120,
+            "correct": 54,
+            "accuracy": 0.45,
+            "mean_delta": -0.0037990197675815316
+          },
+          "법률": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335,
+            "mean_delta": -0.0026107263981245883
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 50,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.0043446091536809206
+          },
+          "의료": {
+            "n": 120,
+            "correct": 53,
+            "accuracy": 0.44166666666666665,
+            "mean_delta": -0.007834133388216345
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 36,
+            "accuracy": 0.6,
+            "mean_delta": 0.0034116173323747094
+          },
+          "T10": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665,
+            "mean_delta": -0.013404175321286347
+          },
+          "T2": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35,
+            "mean_delta": -0.008130678914807975
+          },
+          "T3": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35,
+            "mean_delta": -0.012648202248685394
+          },
+          "T4": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665,
+            "mean_delta": -0.01854470281351594
+          },
+          "T5": {
+            "n": 60,
+            "correct": 23,
+            "accuracy": 0.38333333333333336,
+            "mean_delta": -0.013443503619323246
+          },
+          "T6": {
+            "n": 60,
+            "correct": 25,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.0007302322916160546
+          },
+          "T7": {
+            "n": 60,
+            "correct": 38,
+            "accuracy": 0.6333333333333333,
+            "mean_delta": 0.01040484158105325
+          },
+          "T8": {
+            "n": 60,
+            "correct": 30,
+            "accuracy": 0.5,
+            "mean_delta": 0.0024412399238596173
+          },
+          "T9": {
+            "n": 60,
+            "correct": 29,
+            "accuracy": 0.48333333333333334,
+            "mean_delta": -0.004180940647149387
+          }
+        },
+        "positive_form": {
+          "diverse": {
+            "n": 419,
+            "correct": 80,
+            "accuracy": 0.1909307875894988,
+            "mean_delta": -0.01742322112040711
+          },
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1.0,
+            "mean_delta": 0.022159367007208688
+          }
+        }
+      },
+      "specification": {
+        "repo": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+            "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+            "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+            "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+            "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {}
+      },
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38",
+      "max_observed_tokens": 98,
+      "inference_seconds": 29.005210876464844,
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "peak_gpu_allocated_bytes": 2358449664,
+      "fresh_inference": true,
+      "reproduction_gate": {
+        "prediction_disagreements": 0,
+        "max_test_cosine_delta": 1.1977492482273533e-06,
+        "max_sts_cosine_delta": 5.343939404323095e-07,
+        "spearman_delta": 1.7083949415908073e-05,
+        "passed": true
+      },
+      "sts_retention_percent": 100.0,
+      "sts_relative_drop_percent": 0.0,
+      "accuracy_ci95": [
+        0.39666666666666667,
+        0.47333333333333333
+      ],
+      "spearman_ci95": [
+        0.8523554399712147,
+        0.8974549543854354
+      ]
+    },
+    "l6000": {
+      "n": 600,
+      "correct": 570,
+      "accuracy": 0.95,
+      "macro_accuracy_10": 0.95,
+      "ties": 0,
+      "hn_confusion_count": 30,
+      "mean_delta": 0.36927607457476874,
+      "klue_spearman": 0.8337258772367055,
+      "klue_pearson": 0.8100393638566058,
+      "breakdown": {
+        "domain": {
+          "계약": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95,
+            "mean_delta": 0.37716611965493324
+          },
+          "금융": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667,
+            "mean_delta": 0.4105467408214686
+          },
+          "법률": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95,
+            "mean_delta": 0.4069859251382924
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 113,
+            "accuracy": 0.9416666666666667,
+            "mean_delta": 0.33563669758590936
+          },
+          "의료": {
+            "n": 120,
+            "correct": 113,
+            "accuracy": 0.9416666666666667,
+            "mean_delta": 0.31604488967324007
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1.0,
+            "mean_delta": 0.3158613126248276
+          },
+          "T10": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333,
+            "mean_delta": 0.3455571934007987
+          },
+          "T2": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333,
+            "mean_delta": 0.33527128845534887
+          },
+          "T3": {
+            "n": 60,
+            "correct": 41,
+            "accuracy": 0.6833333333333333,
+            "mean_delta": 0.11050305989851388
+          },
+          "T4": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667,
+            "mean_delta": 0.2835446909392416
+          },
+          "T5": {
+            "n": 60,
+            "correct": 55,
+            "accuracy": 0.9166666666666666,
+            "mean_delta": 0.3334917263382708
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333,
+            "mean_delta": 0.6033365500053491
+          },
+          "T7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333,
+            "mean_delta": 0.31640132311807184
+          },
+          "T8": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1.0,
+            "mean_delta": 0.6006600802841546
+          },
+          "T9": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1.0,
+            "mean_delta": 0.44813352068310974
+          }
+        },
+        "positive_form": {
+          "diverse": {
+            "n": 419,
+            "correct": 389,
+            "accuracy": 0.9284009546539379,
+            "mean_delta": 0.3380704266872479
+          },
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1.0,
+            "mean_delta": 0.4415145633309633
+          }
+        }
+      },
+      "specification": {
+        "repo": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+            "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+            "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+            "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+            "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {},
+        "adapter_sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+        "run_id": "retain6000_lambda10_C_seed17_20261018",
+        "lambda": 10,
+        "step": 1500,
+        "seed": 17
+      },
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38",
+      "max_observed_tokens": 98,
+      "inference_seconds": 32.36084985733032,
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "peak_gpu_allocated_bytes": 2365068800,
+      "fresh_inference": true,
+      "reproduction_gate": {
+        "prediction_disagreements": 0,
+        "max_test_cosine_delta": 2.0739204507069786e-06,
+        "max_sts_cosine_delta": 1.0712614206820348e-06,
+        "spearman_delta": 0.0,
+        "passed": true
+      },
+      "sts_retention_percent": 95.03438897094757,
+      "sts_relative_drop_percent": 4.965611029052425,
+      "accuracy_ci95": [
+        0.935,
+        0.965
+      ],
+      "spearman_ci95": [
+        0.8033496532428942,
+        0.8589824793190577
+      ]
+    },
+    "kure-v1": {
+      "n": 600,
+      "correct": 250,
+      "accuracy": 0.4166666666666667,
+      "macro_accuracy_10": 0.41666666666666663,
+      "ties": 0,
+      "hn_confusion_count": 350,
+      "mean_delta": -0.006756404296084346,
+      "klue_spearman": 0.8775987899965336,
+      "klue_pearson": 0.8652696799865002,
+      "breakdown": {
+        "domain": {
+          "계약": {
+            "n": 120,
+            "correct": 49,
+            "accuracy": 0.4083333333333333,
+            "mean_delta": -0.009587589558959327
+          },
+          "금융": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335,
+            "mean_delta": -0.004837351197354847
+          },
+          "법률": {
+            "n": 120,
+            "correct": 51,
+            "accuracy": 0.425,
+            "mean_delta": -0.004223119257681789
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 47,
+            "accuracy": 0.39166666666666666,
+            "mean_delta": -0.006502507043016239
+          },
+          "의료": {
+            "n": 120,
+            "correct": 51,
+            "accuracy": 0.425,
+            "mean_delta": -0.008631454423409525
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 33,
+            "accuracy": 0.55,
+            "mean_delta": 0.002617239159877192
+          },
+          "T10": {
+            "n": 60,
+            "correct": 20,
+            "accuracy": 0.3333333333333333,
+            "mean_delta": -0.011984892081178762
+          },
+          "T2": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35,
+            "mean_delta": -0.008096354428924096
+          },
+          "T3": {
+            "n": 60,
+            "correct": 24,
+            "accuracy": 0.4,
+            "mean_delta": -0.008476918241100556
+          },
+          "T4": {
+            "n": 60,
+            "correct": 20,
+            "accuracy": 0.3333333333333333,
+            "mean_delta": -0.014807583082530799
+          },
+          "T5": {
+            "n": 60,
+            "correct": 20,
+            "accuracy": 0.3333333333333333,
+            "mean_delta": -0.01783584446649929
+          },
+          "T6": {
+            "n": 60,
+            "correct": 24,
+            "accuracy": 0.4,
+            "mean_delta": -0.005316641269053833
+          },
+          "T7": {
+            "n": 60,
+            "correct": 34,
+            "accuracy": 0.5666666666666667,
+            "mean_delta": 0.005248988921889625
+          },
+          "T8": {
+            "n": 60,
+            "correct": 25,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.003363578474347443
+          },
+          "T9": {
+            "n": 60,
+            "correct": 29,
+            "accuracy": 0.48333333333333334,
+            "mean_delta": -0.005548458998975495
+          }
+        },
+        "positive_form": {
+          "diverse": {
+            "n": 419,
+            "correct": 69,
+            "accuracy": 0.16467780429594273,
+            "mean_delta": -0.017519879791528276
+          },
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1.0,
+            "mean_delta": 0.01816014947513668
+          }
+        }
+      },
+      "specification": {
+        "repo": "nlpai-lab/KURE-v1",
+        "revision": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config.json",
+            "sha256": "852d42e020c7f989c2acaf30fc683b7f768e8c6d1ab17166e835442162bd825d"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/1_Pooling/config.json",
+            "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/README.md",
+            "sha256": "31eee15f3a8169b6749a4ac61c56e63ad5a6d9dbb6c96d4c6fae3c0522c61d6d"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config_sentence_transformers.json",
+            "sha256": "8c73684c2160f2209f3706d6cbe0e933287fe6945d9546042be4c105cdb5252e"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {}
+      },
+      "weight_file": "model.safetensors",
+      "weight_sha256": "c18156e80caf8ff45eb84a24a853130c3bca03087ccb41b051f86e7556bae02c",
+      "max_observed_tokens": 98,
+      "inference_seconds": 59.54933261871338,
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "peak_gpu_allocated_bytes": 2358777344,
+      "fresh_inference": true,
+      "sts_retention_percent": 100.03535579990712,
+      "sts_relative_drop_percent": -0.03535579990712279,
+      "accuracy_ci95": [
+        0.37833333333333335,
+        0.455
+      ],
+      "spearman_ci95": [
+        0.8535257895410532,
+        0.8969700578783746
+      ]
+    },
+    "bge-m3-ko": {
+      "n": 600,
+      "correct": 256,
+      "accuracy": 0.4266666666666667,
+      "macro_accuracy_10": 0.42666666666666664,
+      "ties": 0,
+      "hn_confusion_count": 344,
+      "mean_delta": -0.00786688947539624,
+      "klue_spearman": 0.8867084411644334,
+      "klue_pearson": 0.8794839402654221,
+      "breakdown": {
+        "domain": {
+          "계약": {
+            "n": 120,
+            "correct": 50,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.012298391596808603
+          },
+          "금융": {
+            "n": 120,
+            "correct": 50,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.005101876148857568
+          },
+          "법률": {
+            "n": 120,
+            "correct": 56,
+            "accuracy": 0.4666666666666667,
+            "mean_delta": -0.0032535746329756293
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 48,
+            "accuracy": 0.4,
+            "mean_delta": -0.007711075675740022
+          },
+          "의료": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335,
+            "mean_delta": -0.01096952932259938
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 32,
+            "accuracy": 0.5333333333333333,
+            "mean_delta": 0.00201561992809981
+          },
+          "T10": {
+            "n": 60,
+            "correct": 22,
+            "accuracy": 0.36666666666666664,
+            "mean_delta": -0.013394981232431328
+          },
+          "T2": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35,
+            "mean_delta": -0.009345535466994823
+          },
+          "T3": {
+            "n": 60,
+            "correct": 24,
+            "accuracy": 0.4,
+            "mean_delta": -0.00905520816604251
+          },
+          "T4": {
+            "n": 60,
+            "correct": 20,
+            "accuracy": 0.3333333333333333,
+            "mean_delta": -0.01860960000010341
+          },
+          "T5": {
+            "n": 60,
+            "correct": 22,
+            "accuracy": 0.36666666666666664,
+            "mean_delta": -0.02312000226246782
+          },
+          "T6": {
+            "n": 60,
+            "correct": 23,
+            "accuracy": 0.38333333333333336,
+            "mean_delta": -0.005842447067068316
+          },
+          "T7": {
+            "n": 60,
+            "correct": 34,
+            "accuracy": 0.5666666666666667,
+            "mean_delta": 0.006412456695067211
+          },
+          "T8": {
+            "n": 60,
+            "correct": 27,
+            "accuracy": 0.45,
+            "mean_delta": -0.00317775391063968
+          },
+          "T9": {
+            "n": 60,
+            "correct": 31,
+            "accuracy": 0.5166666666666667,
+            "mean_delta": -0.004551443271381539
+          }
+        },
+        "positive_form": {
+          "diverse": {
+            "n": 419,
+            "correct": 75,
+            "accuracy": 0.17899761336515513,
+            "mean_delta": -0.021613346526408797
+          },
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1.0,
+            "mean_delta": 0.023955019388549954
+          }
+        }
+      },
+      "specification": {
+        "repo": "dragonkue/BGE-m3-ko",
+        "revision": "7074d66aa46562342193ca4feb3d89bf9dad71b4",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config.json",
+            "sha256": "a20b07ed6fb38e0ad84c645ca45a5ad8ef7e06868d89d41e04417532b17d04bc"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/1_Pooling/config.json",
+            "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/README.md",
+            "sha256": "da9c6bdfd0632cdab10fa10f7f2306b3f2ba965030aaafc8b089a5a9369ff314"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config_sentence_transformers.json",
+            "sha256": "73974c2b1c9e4727b4eb2a05dc8255882beec90f53a4d7bab6566c5b6aac7b39"
+          }
+        },
+        "license": "apache-2.0",
+        "default_prompt_name": null,
+        "prompts": {}
+      },
+      "weight_file": "model.safetensors",
+      "weight_sha256": "da164fa90633e730db4ee91a79ebf99a0826fb31d6f002c4a8ec7952a286c4f4",
+      "max_observed_tokens": 98,
+      "inference_seconds": 59.1845018863678,
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "peak_gpu_allocated_bytes": 2358957568,
+      "fresh_inference": true,
+      "sts_retention_percent": 101.07374282388818,
+      "sts_relative_drop_percent": -1.0737428238881819,
+      "accuracy_ci95": [
+        0.3883333333333333,
+        0.465
+      ],
+      "spearman_ci95": [
+        0.8654333960257049,
+        0.9043466184785363
+      ]
+    },
+    "bge-m3-korean": {
+      "n": 600,
+      "correct": 282,
+      "accuracy": 0.47,
+      "macro_accuracy_10": 0.47000000000000003,
+      "ties": 0,
+      "hn_confusion_count": 318,
+      "mean_delta": -0.0009912426099100413,
+      "klue_spearman": 0.8783011206004172,
+      "klue_pearson": 0.8708014974028686,
+      "breakdown": {
+        "domain": {
+          "계약": {
+            "n": 120,
+            "correct": 58,
+            "accuracy": 0.48333333333333334,
+            "mean_delta": -0.004596135286542097
+          },
+          "금융": {
+            "n": 120,
+            "correct": 54,
+            "accuracy": 0.45,
+            "mean_delta": 9.63863621832021e-05
+          },
+          "법률": {
+            "n": 120,
+            "correct": 59,
+            "accuracy": 0.49166666666666664,
+            "mean_delta": 0.001640959767405987
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 54,
+            "accuracy": 0.45,
+            "mean_delta": 0.0017771981171465778
+          },
+          "의료": {
+            "n": 120,
+            "correct": 57,
+            "accuracy": 0.475,
+            "mean_delta": -0.0038746220097438766
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 35,
+            "accuracy": 0.5833333333333334,
+            "mean_delta": 0.009722005713936669
+          },
+          "T10": {
+            "n": 60,
+            "correct": 17,
+            "accuracy": 0.2833333333333333,
+            "mean_delta": -0.01910646570400363
+          },
+          "T2": {
+            "n": 60,
+            "correct": 25,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.00611456269951464
+          },
+          "T3": {
+            "n": 60,
+            "correct": 25,
+            "accuracy": 0.4166666666666667,
+            "mean_delta": -0.0066686270044339115
+          },
+          "T4": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35,
+            "mean_delta": -0.021508277986862893
+          },
+          "T5": {
+            "n": 60,
+            "correct": 30,
+            "accuracy": 0.5,
+            "mean_delta": 0.0008179332683360056
+          },
+          "T6": {
+            "n": 60,
+            "correct": 32,
+            "accuracy": 0.5333333333333333,
+            "mean_delta": 0.011312512273473376
+          },
+          "T7": {
+            "n": 60,
+            "correct": 34,
+            "accuracy": 0.5666666666666667,
+            "mean_delta": 0.008762580442727413
+          },
+          "T8": {
+            "n": 60,
+            "correct": 32,
+            "accuracy": 0.5333333333333333,
+            "mean_delta": 0.00779380833678749
+          },
+          "T9": {
+            "n": 60,
+            "correct": 31,
+            "accuracy": 0.5166666666666667,
+            "mean_delta": 0.005076667260453701
+          }
+        },
+        "positive_form": {
+          "diverse": {
+            "n": 419,
+            "correct": 102,
+            "accuracy": 0.24343675417661098,
+            "mean_delta": -0.015067135544830575
+          },
+          "simple": {
+            "n": 181,
+            "correct": 180,
+            "accuracy": 0.994475138121547,
+            "mean_delta": 0.03159328302396678
+          }
+        }
+      },
+      "specification": {
+        "repo": "upskyy/bge-m3-korean",
+        "revision": "069ae0627320935e4b2879522edbb54650b59bf5",
+        "pooling": "mean",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/config.json",
+            "sha256": "f4e0c99ae06933e23d32ffc9952095d7af8ed89a95db5a25577891b24f0f9a5f"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/modules.json",
+            "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/1_Pooling/config.json",
+            "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/README.md",
+            "sha256": "2a7345e0f7b03451d44fd6b4466498ef12ce00864cddf985e522c2de9f2320a3"
+          }
+        },
+        "license": "not declared in pinned model-card metadata; do not assume inherited license",
+        "default_prompt_name": null,
+        "prompts": {}
+      },
+      "weight_file": "model.safetensors",
+      "weight_sha256": "8f36f5b113e21e68f8440a44fb9355569d81ab1d213d156d02bedc2ef0b508b3",
+      "max_observed_tokens": 98,
+      "inference_seconds": 55.61406493186951,
+      "tokenizer_class": "XLMRobertaTokenizerFast",
+      "peak_gpu_allocated_bytes": 2358781440,
+      "fresh_inference": true,
+      "sts_retention_percent": 100.11541276061571,
+      "sts_relative_drop_percent": -0.11541276061571182,
+      "accuracy_ci95": [
+        0.43333333333333335,
+        0.5083333333333333
+      ],
+      "spearman_ci95": [
+        0.8554045113784413,
+        0.89677408690741
+      ]
+    }
+  },
+  "protocol_sha256": "f08b40650a7c4b9a4165fcc70201c478d6dd9d70dd1a3670751b01a88f510a9d",
+  "elapsed_seconds": 248.76751589775085,
+  "statistics_file": "paired_statistics.json"
+}

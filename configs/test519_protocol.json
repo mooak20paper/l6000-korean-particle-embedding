@@ -1,0 +1,243 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "created_at_utc": "2026-11-03T10:58:04.733030+00:00",
+  "models": {
+    "baseline": {
+      "repo": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+          "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+          "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+          "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+          "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {}
+    },
+    "kure-v1": {
+      "repo": "nlpai-lab/KURE-v1",
+      "revision": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config.json",
+          "sha256": "852d42e020c7f989c2acaf30fc683b7f768e8c6d1ab17166e835442162bd825d"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/1_Pooling/config.json",
+          "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/README.md",
+          "sha256": "31eee15f3a8169b6749a4ac61c56e63ad5a6d9dbb6c96d4c6fae3c0522c61d6d"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config_sentence_transformers.json",
+          "sha256": "8c73684c2160f2209f3706d6cbe0e933287fe6945d9546042be4c105cdb5252e"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {}
+    },
+    "bge-m3-ko": {
+      "repo": "dragonkue/BGE-m3-ko",
+      "revision": "7074d66aa46562342193ca4feb3d89bf9dad71b4",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config.json",
+          "sha256": "a20b07ed6fb38e0ad84c645ca45a5ad8ef7e06868d89d41e04417532b17d04bc"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/1_Pooling/config.json",
+          "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/README.md",
+          "sha256": "da9c6bdfd0632cdab10fa10f7f2306b3f2ba965030aaafc8b089a5a9369ff314"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config_sentence_transformers.json",
+          "sha256": "73974c2b1c9e4727b4eb2a05dc8255882beec90f53a4d7bab6566c5b6aac7b39"
+        }
+      },
+      "license": "apache-2.0",
+      "default_prompt_name": null,
+      "prompts": {}
+    },
+    "bge-m3-korean": {
+      "repo": "upskyy/bge-m3-korean",
+      "revision": "069ae0627320935e4b2879522edbb54650b59bf5",
+      "pooling": "mean",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/config.json",
+          "sha256": "f4e0c99ae06933e23d32ffc9952095d7af8ed89a95db5a25577891b24f0f9a5f"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/modules.json",
+          "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/1_Pooling/config.json",
+          "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/README.md",
+          "sha256": "2a7345e0f7b03451d44fd6b4466498ef12ce00864cddf985e522c2de9f2320a3"
+        }
+      },
+      "license": "not declared in pinned model-card metadata; do not assume inherited license",
+      "default_prompt_name": null,
+      "prompts": {}
+    },
+    "l6000": {
+      "repo": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+          "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+          "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+          "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+          "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {},
+      "adapter_sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+      "run_id": "retain6000_lambda10_C_seed17_20261018",
+      "lambda": 10,
+      "step": 1500,
+      "seed": 17
+    }
+  },
+  "execution_order": [
+    "baseline",
+    "l6000",
+    "kure-v1",
+    "bge-m3-ko",
+    "bge-m3-korean"
+  ],
+  "input_files": {
+    "test600.csv": {
+      "sha256": "5a966552aed4e75e2a228958eece1cb9d36be94006d5fd6e8e7ec1b139fbff3e",
+      "source_path": "evaluation_only/test600_final_positive70_v1_20261018/Test600_최종확정.csv",
+      "bytes": 404067
+    },
+    "klue519.json": {
+      "sha256": "b6a0ae0c370e21687f7eef0fdea872a328bb2ecbdb020c546cb870d28606bf80",
+      "source_path": "evaluation_only/external_sts/klue_sts_dev519_final_candidate_v1_20261017/klue-sts-v1.1_dev.json",
+      "bytes": 454638
+    },
+    "adapter/adapter_config.json": {
+      "sha256": "309cce5cb3ab7fcfc1f70f526993a867db3254a0e184dad6cd55c0851e608875",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/adapter_step1500/adapter_config.json",
+      "bytes": 1178
+    },
+    "adapter/adapter_model.safetensors": {
+      "sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/adapter_step1500/adapter_model.safetensors",
+      "bytes": 6304672
+    },
+    "reference/baseline_test600_scores.csv": {
+      "sha256": "8e4630846ce88086d61902960953a14848c05f1f65d32b89a2079cd2dd3196d5",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/baseline_test600_scores.csv",
+      "bytes": 68063
+    },
+    "reference/L6000_test600_scores.csv": {
+      "sha256": "4f569d66d81d60cda4e587c839ccfe1c151cf1787e751334af66ac3bfffa2120",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/L6000_test600_scores.csv",
+      "bytes": 66825
+    },
+    "reference/klue_sts519_scores.csv": {
+      "sha256": "dfb2c9c7e8c292863d342f6bf79f5625edbd24f691cfe8d95c14086235fa8500",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/klue_sts519_scores.csv",
+      "bytes": 38575
+    },
+    "reference/summary.json": {
+      "sha256": "e27e772fc15bb2c5714f2c397a5e11830f4c6658773586e85dd515480fd40fa7",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/summary.json",
+      "bytes": 1371
+    },
+    "reference/environment.json": {
+      "sha256": "94c52691caff53bbb619384c8e20bad0868857db5854d6781044a9253cb1e305",
+      "source_path": "evaluation_only/l6000_repro_test_20261021/environment.json",
+      "bytes": 2002
+    }
+  },
+  "device": "cuda required",
+  "dtype": "float32",
+  "max_tokens": 160,
+  "truncation": false,
+  "batch_size": 12,
+  "tie_epsilon": 1e-06,
+  "seed": 17,
+  "bootstrap_replicates": 10000,
+  "cosine": "float64 renormalized vectors",
+  "attention": "SDPA math; TF32 disabled",
+  "no_training": true,
+  "reproduction_gate": {
+    "reference": "2026-10-21 CPU reproduction",
+    "correctness_disagreements": 0,
+    "max_cosine_absolute_difference": 0.0001,
+    "spearman_absolute_difference": 0.0001,
+    "reason": "Pre-inference numerical tolerance across CPU/GPU FP32; exact deltas also reported."
+  },
+  "model_identity_correction": "Original handoff mislabels unpreserved C6000 as L6000. Use frozen lambda10 adapter ac321bf...; original handoff retained as history.",
+  "scope": "Repeated existing Test600/KLUE519; not independent confirmation; native pooling system comparison; no model selection.",
+  "statistics": "All ten pairwise exact McNemar; Holm across ten. Paired bootstrap10000 seed17, 50 Test strata; paired KLUE pairs. Individual95% intervals.",
+  "input_policy": "All data, references, vectors and results permanently evaluation-only."
+}

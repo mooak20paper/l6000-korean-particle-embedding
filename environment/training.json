@@ -1,0 +1,15 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "Tesla T4",
+  "packages": {
+    "transformers": "4.57.6",
+    "peft": "0.20.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "safetensors": "0.8.0"
+  },
+  "precision": "FP32 base, FP16 autocast, FP32 normalized cosine/MSE",
+  "attention": "sdpa",
+  "seed": 17
+}

@@ -1,0 +1,331 @@
+{
+  "status": "COMPLETED",
+  "fresh_inference": true,
+  "models": {
+    "baseline": {
+      "specification": {
+        "repo": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+            "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+            "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+            "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+            "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {},
+        "weight_file": "pytorch_model.bin",
+        "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38"
+      },
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38",
+      "fresh_inference": true,
+      "reference519_reproduction_gate": {
+        "max_cosine_difference": 1.2784624514594611e-07,
+        "spearman_difference": 0.0,
+        "passed": true
+      },
+      "max_observed_tokens": 71,
+      "inference_seconds": 65.76175999641418,
+      "peak_gpu_allocated_bytes": 2341558272,
+      "klue_spearman": 0.9206682831712747,
+      "klue_pearson": 0.9445752332385828,
+      "spearman_ci95": [
+        0.9131540403130924,
+        0.9272154164924773
+      ],
+      "spearman_difference_from_baseline": 0.0,
+      "difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "sts_retention_percent": 100.0,
+      "retention_ci95": [
+        99.99999999999999,
+        100.00000000000001
+      ],
+      "sts_relative_drop_percent": 0.0
+    },
+    "l6000": {
+      "specification": {
+        "repo": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+            "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+            "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+            "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+            "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {},
+        "adapter_sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+        "run_id": "retain6000_lambda10_C_seed17_20261018",
+        "lambda": 10,
+        "step": 1500,
+        "seed": 17,
+        "weight_file": "pytorch_model.bin",
+        "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38"
+      },
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38",
+      "fresh_inference": true,
+      "reference519_reproduction_gate": {
+        "max_cosine_difference": 2.774661972404502e-07,
+        "spearman_difference": 0.0,
+        "passed": true
+      },
+      "max_observed_tokens": 71,
+      "inference_seconds": 51.82088494300842,
+      "peak_gpu_allocated_bytes": 2347522048,
+      "klue_spearman": 0.8961442760119762,
+      "klue_pearson": 0.9167388355110635,
+      "spearman_ci95": [
+        0.8873454741307456,
+        0.9038251135108056
+      ],
+      "spearman_difference_from_baseline": -0.024524007159298478,
+      "difference_ci95": [
+        -0.030423820379929245,
+        -0.018890642421740565
+      ],
+      "sts_retention_percent": 97.3362819587067,
+      "retention_ci95": [
+        96.69414793537447,
+        97.94522147106315
+      ],
+      "sts_relative_drop_percent": 2.6637180412932935
+    },
+    "kure-v1": {
+      "specification": {
+        "repo": "nlpai-lab/KURE-v1",
+        "revision": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config.json",
+            "sha256": "852d42e020c7f989c2acaf30fc683b7f768e8c6d1ab17166e835442162bd825d"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/1_Pooling/config.json",
+            "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/README.md",
+            "sha256": "31eee15f3a8169b6749a4ac61c56e63ad5a6d9dbb6c96d4c6fae3c0522c61d6d"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config_sentence_transformers.json",
+            "sha256": "8c73684c2160f2209f3706d6cbe0e933287fe6945d9546042be4c105cdb5252e"
+          }
+        },
+        "license": "mit",
+        "default_prompt_name": null,
+        "prompts": {},
+        "weight_file": "model.safetensors",
+        "weight_sha256": "c18156e80caf8ff45eb84a24a853130c3bca03087ccb41b051f86e7556bae02c"
+      },
+      "weight_sha256": "c18156e80caf8ff45eb84a24a853130c3bca03087ccb41b051f86e7556bae02c",
+      "fresh_inference": true,
+      "reference519_reproduction_gate": {
+        "max_cosine_difference": 1.7280460484769833e-07,
+        "spearman_difference": 0.0,
+        "passed": true
+      },
+      "max_observed_tokens": 71,
+      "inference_seconds": 122.16372609138489,
+      "peak_gpu_allocated_bytes": 2341230592,
+      "klue_spearman": 0.9216823862970153,
+      "klue_pearson": 0.9448057728175098,
+      "spearman_ci95": [
+        0.9141393000810515,
+        0.9282453028586073
+      ],
+      "spearman_difference_from_baseline": 0.001014103125740573,
+      "difference_ci95": [
+        -0.0015898185814593262,
+        0.0035944348433349176
+      ],
+      "sts_retention_percent": 100.11014858926686,
+      "retention_ci95": [
+        99.82774961381062,
+        100.39113265456942
+      ],
+      "sts_relative_drop_percent": -0.11014858926685633
+    },
+    "bge-m3-ko": {
+      "specification": {
+        "repo": "dragonkue/BGE-m3-ko",
+        "revision": "7074d66aa46562342193ca4feb3d89bf9dad71b4",
+        "pooling": "cls",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config.json",
+            "sha256": "a20b07ed6fb38e0ad84c645ca45a5ad8ef7e06868d89d41e04417532b17d04bc"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/modules.json",
+            "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/1_Pooling/config.json",
+            "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/README.md",
+            "sha256": "da9c6bdfd0632cdab10fa10f7f2306b3f2ba965030aaafc8b089a5a9369ff314"
+          },
+          "config_sentence_transformers.json": {
+            "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config_sentence_transformers.json",
+            "sha256": "73974c2b1c9e4727b4eb2a05dc8255882beec90f53a4d7bab6566c5b6aac7b39"
+          }
+        },
+        "license": "apache-2.0",
+        "default_prompt_name": null,
+        "prompts": {},
+        "weight_file": "model.safetensors",
+        "weight_sha256": "da164fa90633e730db4ee91a79ebf99a0826fb31d6f002c4a8ec7952a286c4f4"
+      },
+      "weight_sha256": "da164fa90633e730db4ee91a79ebf99a0826fb31d6f002c4a8ec7952a286c4f4",
+      "fresh_inference": true,
+      "reference519_reproduction_gate": {
+        "max_cosine_difference": 1.4678501614184825e-07,
+        "spearman_difference": 0.0,
+        "passed": true
+      },
+      "max_observed_tokens": 71,
+      "inference_seconds": 125.392263174057,
+      "peak_gpu_allocated_bytes": 2341230592,
+      "klue_spearman": 0.9211487137548275,
+      "klue_pearson": 0.9524713086138961,
+      "spearman_ci95": [
+        0.9135418865825958,
+        0.9278090828384524
+      ],
+      "spearman_difference_from_baseline": 0.00048043058355284884,
+      "difference_ci95": [
+        -0.0020508936849003624,
+        0.0029735020247281694
+      ],
+      "sts_retention_percent": 100.05218281028407,
+      "retention_ci95": [
+        99.77750327376268,
+        100.32354281511108
+      ],
+      "sts_relative_drop_percent": -0.052182810284065795
+    },
+    "bge-m3-korean": {
+      "specification": {
+        "repo": "upskyy/bge-m3-korean",
+        "revision": "069ae0627320935e4b2879522edbb54650b59bf5",
+        "pooling": "mean",
+        "dimension": 1024,
+        "prefix": "",
+        "metadata": {
+          "config.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/config.json",
+            "sha256": "f4e0c99ae06933e23d32ffc9952095d7af8ed89a95db5a25577891b24f0f9a5f"
+          },
+          "modules.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/modules.json",
+            "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+          },
+          "1_Pooling/config.json": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/1_Pooling/config.json",
+            "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822"
+          },
+          "README.md": {
+            "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/README.md",
+            "sha256": "2a7345e0f7b03451d44fd6b4466498ef12ce00864cddf985e522c2de9f2320a3"
+          }
+        },
+        "license": "not declared in pinned model-card metadata; do not assume inherited license",
+        "default_prompt_name": null,
+        "prompts": {},
+        "weight_file": "model.safetensors",
+        "weight_sha256": "8f36f5b113e21e68f8440a44fb9355569d81ab1d213d156d02bedc2ef0b508b3"
+      },
+      "weight_sha256": "8f36f5b113e21e68f8440a44fb9355569d81ab1d213d156d02bedc2ef0b508b3",
+      "fresh_inference": true,
+      "reference519_reproduction_gate": {
+        "max_cosine_difference": 4.546995174270485e-07,
+        "spearman_difference": 0.0,
+        "passed": true
+      },
+      "max_observed_tokens": 71,
+      "inference_seconds": 71.47530555725098,
+      "peak_gpu_allocated_bytes": 2341233664,
+      "klue_spearman": 0.9190309968807886,
+      "klue_pearson": 0.9477320423209602,
+      "spearman_ci95": [
+        0.9113817913572553,
+        0.9256136611323506
+      ],
+      "spearman_difference_from_baseline": -0.0016372862904860952,
+      "difference_ci95": [
+        -0.005319141641976069,
+        0.002071962837690243
+      ],
+      "sts_retention_percent": 99.82216327852129,
+      "retention_ci95": [
+        99.42305199162882,
+        100.22540849945773
+      ],
+      "sts_relative_drop_percent": 0.17783672147871243
+    }
+  },
+  "n": 2000,
+  "protocol_sha256": "1fa0330f398fe151dd61f3a0546ac9d02890aa0555ec0532bffc67a40aa96d68",
+  "interpretation": [
+    "Repeated heldout comparison, not an official KLUE test or unseen confirmation.",
+    "No training, retention-target construction, checkpoint selection or hyperparameter tuning.",
+    "Public models may have seen source data in their pretraining.",
+    "No new Test600 inference; its existing accuracy must not be relabelled as a new result."
+  ],
+  "elapsed_seconds": 438.83192443847656
+}

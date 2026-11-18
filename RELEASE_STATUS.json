@@ -1,0 +1,16 @@
+{
+  "state": "PUBLIC_REPRODUCTION_MATERIALS",
+  "prepared_on": "2026-11-12",
+  "title": "한국어 조사 변화에 따른 의미 변별력 향상을 위한 BGE-M3 문장 임베딩 미세조정 연구",
+  "existing_repository_must_remain_private": true,
+  "publish_only_exported_allowlist_to_new_repository": true,
+  "new_public_repository_created": true,
+  "license_selected": false,
+  "raw_dataset_included": false,
+  "raw_review_records_included": false,
+  "new_experiment_executed": false,
+  "full_inference_reproduction_requires_restricted_inputs": true,
+  "published_on": "2026-11-19",
+  "public_repository": "https://github.com/mooak20paper/l6000-korean-particle-embedding",
+  "original_history_included": false
+}

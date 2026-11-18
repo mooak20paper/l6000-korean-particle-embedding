@@ -1,0 +1,132 @@
+{
+  "run_id": "retain6000_lambda10_C_seed17_20261018",
+  "arm": "C",
+  "seed": 17,
+  "common": {
+    "status": "USER_AUTHORIZED_RETENTION_SCALE",
+    "model_id": "BAAI/bge-m3",
+    "model_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "pooling": "CLS",
+    "l2_normalization": true,
+    "similarity": "cosine",
+    "prefix": "",
+    "max_length": 160,
+    "truncation": false,
+    "physical_triplet_batch_size": 4,
+    "gradient_accumulation_steps": 1,
+    "world_size": 1,
+    "cross_device_negatives": false,
+    "epochs": 1,
+    "learning_rate": 0.0001,
+    "temperature": 0.05,
+    "optimizer": {
+      "name": "AdamW",
+      "weight_decay": 0.01,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08
+    },
+    "scheduler": "none",
+    "warmup_steps": 0,
+    "lora": {
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.1,
+      "target_modules": [
+        "query",
+        "value"
+      ],
+      "bias": "none"
+    },
+    "precision": "fp16",
+    "gradient_checkpointing": true,
+    "gradient_clip_norm": 1.0,
+    "early_stopping": false,
+    "initialization": "Start each size/seed/arm independently from the same pinned baseline and paired initial adapter; do not resume from the smaller trained model.",
+    "train": {
+      "path": "train.jsonl",
+      "rows": 6000,
+      "sha256": "a5d3837c937aa2098105d0d8a9c287ddb4beddfca20959304ecdef78dbcb2934"
+    },
+    "validation": {
+      "path": "validation600.jsonl",
+      "rows": 600,
+      "sha256": "0d2fd17d5777967aedced46968c17543e0eddf5a5ce7c3ea30533f19e5415cd9"
+    },
+    "mask_policy": {
+      "path": "mask_policy.json",
+      "sha256": "4cba3148b848654c4fab4872b83bb0a46a6ddf9efe86ef518051209513fcc35a"
+    },
+    "tie_epsilon": 1e-06,
+    "main_metric": "macro_accuracy_10",
+    "checkpoint_selection": {
+      "eligible": "KorSTS Spearman >=0.90 baseline",
+      "primary": "Validation macro10",
+      "tie": "KorSTS descending then earlier step"
+    },
+    "delta_sts": {
+      "kind": "relative_decline",
+      "value": 0.1
+    },
+    "delta_particle": null,
+    "external_sts_dev": {
+      "path": "korsts_dev.jsonl",
+      "sha256": "fc4089fd26aa954a79bc197dad7e2fcf490a65a05c923dc8f4369ebf7d558488",
+      "rows": 1376
+    },
+    "external_sts_final": null,
+    "execution_allowed": true,
+    "dataset_policy": {
+      "path": "dataset_use_policy.json",
+      "sha256": "c9836346b4ad4141b269e04081a68a57e6f666a6b0deba8b468468f0e30da2fe"
+    },
+    "dataset_eligible_for_training": true,
+    "additional_human_review_required": false,
+    "runtime_status": "Package/input/numerical preflight required before launch.",
+    "unchanged_hyperparameter_source": {
+      "path": "데이터셋_모음/25_실험입력구성_2026-10-10/configs/common.json",
+      "sha256": "641f7c37cdef54698c342f255c36807c9ed7da5116f0564448c15abcccf919eb"
+    },
+    "positive_policy": "diverse",
+    "fixed_positive_authorization": "기존 승인 자료로 먼저 비교: 2천개/4천개/6천개로 보존 손실을 유지하며 개발 평가 비교"
+  },
+  "lambda_retention": 10,
+  "retention_loss": "mean((student_cosine - frozen_baseline_cosine)**2)",
+  "retention_student_dropout": false,
+  "particle_student_dropout": 0.1,
+  "retention_batch_sizes": {
+    "7": 1000,
+    "6": 500
+  },
+  "retention_pairs": 2000,
+  "retention_pair_exposures": 10000,
+  "retention_used_human_scores_as_targets": false,
+  "teacher_precision": "same T4 FP16 autocast, FP32 cosine, eval dropout disabled",
+  "checkpoints": [
+    375,
+    750,
+    1125,
+    1500
+  ],
+  "expected_initial_adapter_sha256": "e9cd21e97744d322cf0bead9bd20581f4b2e6d188aaa7ca85416d379ec0ae183",
+  "reference_baseline": {
+    "correct": 589,
+    "macro_accuracy_10": 0.9818023525053257,
+    "sts_spearman": 0.8369954004811585
+  },
+  "training_authorization": "기존 승인 자료로 먼저 비교: 2천개/4천개/6천개로 보존 손실을 유지하며 개발 평가 비교",
+  "test_evaluation_authorized": false,
+  "final_external_sts_included": false,
+  "no_new_human_complete": true,
+  "new_general_pairs_licensed_source": "KorSTS train, CC BY-SA4.0",
+  "scope": "Existing approved development data only; nine fixed runs; no Test/KLUE or prior final-model reselection.",
+  "comparison_limitations": [
+    "One seed and constrained nested subset.",
+    "At one epoch, rows, optimizer steps and repeated retention exposures grow together.",
+    "Retention and development STS share the KorSTS source family.",
+    "Current Validation positives are mostly simple reformulations; ceiling limits sensitivity.",
+    "Previous Test/KLUE exposures prevent an independent final-confirmation claim."
+  ]
+}

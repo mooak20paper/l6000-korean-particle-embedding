@@ -1,0 +1,100 @@
+{
+  "replicates": 10000,
+  "seed": 17,
+  "resampling_unit": "paired sentence-pair row",
+  "method": "Recompute average ranks inside each paired bootstrap resample; percentile intervals.",
+  "intervals_are_pointwise_not_simultaneous": true,
+  "p_values_or_noninferiority_not_claimed": true,
+  "comparisons": [
+    {
+      "model_a": "baseline",
+      "model_b": "l6000",
+      "difference_a_minus_b": 0.024524007159298478,
+      "paired_percentile_ci95": [
+        0.018890642421740565,
+        0.030423820379929245
+      ]
+    },
+    {
+      "model_a": "baseline",
+      "model_b": "kure-v1",
+      "difference_a_minus_b": -0.001014103125740573,
+      "paired_percentile_ci95": [
+        -0.0035944348433349176,
+        0.001589818581459325
+      ]
+    },
+    {
+      "model_a": "baseline",
+      "model_b": "bge-m3-ko",
+      "difference_a_minus_b": -0.00048043058355284884,
+      "paired_percentile_ci95": [
+        -0.0029735020247281694,
+        0.002050893684900362
+      ]
+    },
+    {
+      "model_a": "baseline",
+      "model_b": "bge-m3-korean",
+      "difference_a_minus_b": 0.0016372862904860952,
+      "paired_percentile_ci95": [
+        -0.002071962837690244,
+        0.005319141641976068
+      ]
+    },
+    {
+      "model_a": "l6000",
+      "model_b": "kure-v1",
+      "difference_a_minus_b": -0.02553811028503905,
+      "paired_percentile_ci95": [
+        -0.0318890476437798,
+        -0.01939203173396391
+      ]
+    },
+    {
+      "model_a": "l6000",
+      "model_b": "bge-m3-ko",
+      "difference_a_minus_b": -0.025004437742851326,
+      "paired_percentile_ci95": [
+        -0.031284443598168954,
+        -0.018940384575228637
+      ]
+    },
+    {
+      "model_a": "l6000",
+      "model_b": "bge-m3-korean",
+      "difference_a_minus_b": -0.022886720868812382,
+      "paired_percentile_ci95": [
+        -0.029423971891881184,
+        -0.016568746349214573
+      ]
+    },
+    {
+      "model_a": "kure-v1",
+      "model_b": "bge-m3-ko",
+      "difference_a_minus_b": 0.0005336725421877242,
+      "paired_percentile_ci95": [
+        -0.0011234490199963116,
+        0.0022103824506629504
+      ]
+    },
+    {
+      "model_a": "kure-v1",
+      "model_b": "bge-m3-korean",
+      "difference_a_minus_b": 0.0026513894162266682,
+      "paired_percentile_ci95": [
+        -0.0013507892691121404,
+        0.006729586566207588
+      ]
+    },
+    {
+      "model_a": "bge-m3-ko",
+      "model_b": "bge-m3-korean",
+      "difference_a_minus_b": 0.002117716874038944,
+      "paired_percentile_ci95": [
+        -0.0020166170903837847,
+        0.006221346028716166
+      ]
+    }
+  ]
+}

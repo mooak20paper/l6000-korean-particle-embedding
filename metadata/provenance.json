@@ -1,0 +1,316 @@
+{
+  "source_repository": "https://github.com/mooak20paper/korean-particle-bge-m3-research",
+  "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+  "files": [
+    {
+      "path": "code/training/train_retention.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "e096f770ccf37b3b6ae418ac893ae37e9a59a58f14f4979e077e73d769487de1",
+      "export_sha256": "e096f770ccf37b3b6ae418ac893ae37e9a59a58f14f4979e077e73d769487de1",
+      "unchanged": true
+    },
+    {
+      "path": "code/training/common_training.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "1f7b2d9d3cc41268dc642eb543cd6a43de5f0355bbedac51a3fd61de26c1d7c5",
+      "export_sha256": "1f7b2d9d3cc41268dc642eb543cd6a43de5f0355bbedac51a3fd61de26c1d7c5",
+      "unchanged": true
+    },
+    {
+      "path": "code/evaluation/run_colab_evaluation.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "9003ae43743e06c823708112d4d7d61a211f135f0ce9fd624f207253256fcbe8",
+      "export_sha256": "9003ae43743e06c823708112d4d7d61a211f135f0ce9fd624f207253256fcbe8",
+      "unchanged": true
+    },
+    {
+      "path": "code/evaluation/analyze_results.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "309e2803a916ac5c123540d366b2e7ba71b095893945ddc5d66c2c4e6a99cf46",
+      "export_sha256": "309e2803a916ac5c123540d366b2e7ba71b095893945ddc5d66c2c4e6a99cf46",
+      "unchanged": true
+    },
+    {
+      "path": "code/evaluation/run_sts2000.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "bdf339f01a8856ba9f45eb129047f44048d7374233d31f46fd923db375338582",
+      "export_sha256": "bdf339f01a8856ba9f45eb129047f44048d7374233d31f46fd923db375338582",
+      "unchanged": true
+    },
+    {
+      "path": "code/evaluation/run_inference_cpu.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "7602058fef1c9ab01f0dc01e6b9579c903df28edccb9b939d5e3828a8a6e514b",
+      "export_sha256": "7602058fef1c9ab01f0dc01e6b9579c903df28edccb9b939d5e3828a8a6e514b",
+      "unchanged": true
+    },
+    {
+      "path": "code/analysis/analyze_selected_models.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "1d378c9a991ca240b9659d5f0035b1680649dec74cb26afb7c1c2fac0ba086f4",
+      "export_sha256": "1d378c9a991ca240b9659d5f0035b1680649dec74cb26afb7c1c2fac0ba086f4",
+      "unchanged": true
+    },
+    {
+      "path": "code/analysis/analyze_lambda1.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "cb6c2e4ec198afc4b45a28d5ee0381995c1d286525fe8fe64e21ff3968bd3180",
+      "export_sha256": "cb6c2e4ec198afc4b45a28d5ee0381995c1d286525fe8fe64e21ff3968bd3180",
+      "unchanged": true
+    },
+    {
+      "path": "code/policy/evaluation_guard.py",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "f3293f0f6ad5f0658e5a9dd4041650720b9948e3915de1118d8c892b4f86ea65",
+      "export_sha256": "f3293f0f6ad5f0658e5a9dd4041650720b9948e3915de1118d8c892b4f86ea65",
+      "unchanged": true
+    },
+    {
+      "path": "configs/L6000_run_config.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "ec9e703a7c97082192bd3a188b91d5542d3e71dd1791f91c5b5d8285b3de4ce8",
+      "export_sha256": "ec9e703a7c97082192bd3a188b91d5542d3e71dd1791f91c5b5d8285b3de4ce8",
+      "unchanged": true
+    },
+    {
+      "path": "configs/training_input_manifest.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "0a193e4aa2dfb0c69847dafbb9d0a15b9fb4dbe1bd7ac3ddf03329ff5623ccdd",
+      "export_sha256": "0a193e4aa2dfb0c69847dafbb9d0a15b9fb4dbe1bd7ac3ddf03329ff5623ccdd",
+      "unchanged": true
+    },
+    {
+      "path": "configs/development_protocol.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "8d6a664fb9e1c442f09022ef3a5eaa7ea87a5e58042ed06af7e3d6630233d024",
+      "export_sha256": "8d6a664fb9e1c442f09022ef3a5eaa7ea87a5e58042ed06af7e3d6630233d024",
+      "unchanged": true
+    },
+    {
+      "path": "configs/test519_protocol.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "f08b40650a7c4b9a4165fcc70201c478d6dd9d70dd1a3670751b01a88f510a9d",
+      "export_sha256": "f08b40650a7c4b9a4165fcc70201c478d6dd9d70dd1a3670751b01a88f510a9d",
+      "unchanged": true
+    },
+    {
+      "path": "configs/sts2000_protocol.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "1fa0330f398fe151dd61f3a0546ac9d02890aa0555ec0532bffc67a40aa96d68",
+      "export_sha256": "1fa0330f398fe151dd61f3a0546ac9d02890aa0555ec0532bffc67a40aa96d68",
+      "unchanged": true
+    },
+    {
+      "path": "metadata/model_aliases.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "7a3eedfd099b461ac30eae4377af50f64febdb0577caca999a59244a83dea540",
+      "export_sha256": "7a3eedfd099b461ac30eae4377af50f64febdb0577caca999a59244a83dea540",
+      "unchanged": true
+    },
+    {
+      "path": "licenses/KorSTS_LICENSE.txt",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "73c55d92eee00d4b03241b6f57a607ce5dc9ab1127bd0ce21a99e4b134b11397",
+      "export_sha256": "73c55d92eee00d4b03241b6f57a607ce5dc9ab1127bd0ce21a99e4b134b11397",
+      "unchanged": true
+    },
+    {
+      "path": "model/adapter_model.safetensors",
+      "source_archive_sha256": "a6ac914665c1e80ca922b724cf3c8ae13811fc308c1679602426587446df0d3d",
+      "source_member": "adapter_step1500/adapter_model.safetensors",
+      "export_sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+      "unchanged": true
+    },
+    {
+      "path": "model/adapter_config.json",
+      "source_archive_sha256": "a6ac914665c1e80ca922b724cf3c8ae13811fc308c1679602426587446df0d3d",
+      "source_member": "adapter_step1500/adapter_config.json",
+      "export_sha256": "309cce5cb3ab7fcfc1f70f526993a867db3254a0e184dad6cd55c0851e608875",
+      "unchanged": true
+    },
+    {
+      "path": "environment/test519.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "experiments/external_bgem3_korean_20261103/results/run_colab_20261103T120144Z/environment.json",
+      "source_sha256": "728fe62f51b4c624ad47c6ae740bd28787039a4fbc0ee11eee9b9a7c7da629a7",
+      "transformation": "Removed command, nvidia-smi and user-machine paths only."
+    },
+    {
+      "path": "environment/sts2000.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "experiments/external_bgem3_klue2000_20261104/results/run_colab_20261103T152113Z/environment.json",
+      "source_sha256": "03cc6284eab615a543128edd9e6d442b4841747a242bccc87790eacb4c3ffd57",
+      "transformation": "Removed command, nvidia-smi and user-machine paths only."
+    },
+    {
+      "path": "results/test519/baseline_test600.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "ee7069f2bea2d4517f86bde06afe0916e56ccf3a76255483972d3c60ff2f1748",
+      "export_sha256": "ee7069f2bea2d4517f86bde06afe0916e56ccf3a76255483972d3c60ff2f1748",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/baseline_klue_sts519.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "b7f837fd6d8ccda39b1a2e4ad6ea8961ef4128f3d8a6fc77bfb5e6ef75948b4e",
+      "export_sha256": "b7f837fd6d8ccda39b1a2e4ad6ea8961ef4128f3d8a6fc77bfb5e6ef75948b4e",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/baseline_klue_sts2000.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "76769fd60a9509ea43ce906437004f056336c81a547a7ef6cd9478a5e1062200",
+      "export_sha256": "76769fd60a9509ea43ce906437004f056336c81a547a7ef6cd9478a5e1062200",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/l6000_test600.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "83c5e68ec3d1b97bd614fc812afe0b7d2a04cbdae18236ffed715dcbf255b9a8",
+      "export_sha256": "83c5e68ec3d1b97bd614fc812afe0b7d2a04cbdae18236ffed715dcbf255b9a8",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/l6000_klue_sts519.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "7548d58ed324ad40033d08e48d8108e4bfa3280cb9958eda9feece62a213ad09",
+      "export_sha256": "7548d58ed324ad40033d08e48d8108e4bfa3280cb9958eda9feece62a213ad09",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/l6000_klue_sts2000.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "867ddbfb5deaff8d60769ccf14ec761edf113f1ee94927c25bebadccac261298",
+      "export_sha256": "867ddbfb5deaff8d60769ccf14ec761edf113f1ee94927c25bebadccac261298",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/kure-v1_test600.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "e7edd494f6f3b7fca824cfa3a35f85b7cee090afd0c63efb4a2154d0b8416c0e",
+      "export_sha256": "e7edd494f6f3b7fca824cfa3a35f85b7cee090afd0c63efb4a2154d0b8416c0e",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/kure-v1_klue_sts519.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "524f35345cf28944424722156620bc07a14da3fce250768f7454fb0058f2d74b",
+      "export_sha256": "524f35345cf28944424722156620bc07a14da3fce250768f7454fb0058f2d74b",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/kure-v1_klue_sts2000.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "22cec40287ec81437708c61db86391000fd2e6b795fad0938d974556157f49ad",
+      "export_sha256": "22cec40287ec81437708c61db86391000fd2e6b795fad0938d974556157f49ad",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/bge-m3-ko_test600.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "a37c6cf8062299f0c2c23b488d284e7d0d8c956ae66e6217a38bc4626dfdb0e4",
+      "export_sha256": "a37c6cf8062299f0c2c23b488d284e7d0d8c956ae66e6217a38bc4626dfdb0e4",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/bge-m3-ko_klue_sts519.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "ab4f7acf5981a9f8464f45efe9f249c969456318966df7ae9658ec4d9db948df",
+      "export_sha256": "ab4f7acf5981a9f8464f45efe9f249c969456318966df7ae9658ec4d9db948df",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/bge-m3-ko_klue_sts2000.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "78ee0d13bff9233a10d97d94f8ac8ade60efeec369a9bc7de1aa6dbe17bf98b2",
+      "export_sha256": "78ee0d13bff9233a10d97d94f8ac8ade60efeec369a9bc7de1aa6dbe17bf98b2",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/bge-m3-korean_test600.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "f3ecd1c0e7a294abd0ca2c3acfa48f0f51e1ff80b01955b61b467c4352088bc3",
+      "export_sha256": "f3ecd1c0e7a294abd0ca2c3acfa48f0f51e1ff80b01955b61b467c4352088bc3",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/bge-m3-korean_klue_sts519.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "fa110d498a70af672d7b89fdae38c652e2e45277fa4535a27763fc1b82bea43b",
+      "export_sha256": "fa110d498a70af672d7b89fdae38c652e2e45277fa4535a27763fc1b82bea43b",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/bge-m3-korean_klue_sts2000.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "eb323983e544928ea33993de712f61c328013f23723f0026cff98f6eb54efb97",
+      "export_sha256": "eb323983e544928ea33993de712f61c328013f23723f0026cff98f6eb54efb97",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/paper_comparison.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "972ad8362c17a935af377b6f774e8e2f60fb23a21dcc1236d526d1b005bc6983",
+      "export_sha256": "972ad8362c17a935af377b6f774e8e2f60fb23a21dcc1236d526d1b005bc6983",
+      "unchanged": true
+    },
+    {
+      "path": "results/test519/paired_statistics.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "17b725bae4f79159f99782d757357de95814d012cfd0f44f86ec009b20950934",
+      "export_sha256": "17b725bae4f79159f99782d757357de95814d012cfd0f44f86ec009b20950934",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/paper_comparison.csv",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "87e306fb7e7b996a12faa35473e7e11173a1ce7eb99ae5f208c054ebfb66c5c6",
+      "export_sha256": "87e306fb7e7b996a12faa35473e7e11173a1ce7eb99ae5f208c054ebfb66c5c6",
+      "unchanged": true
+    },
+    {
+      "path": "results/sts2000/paired_statistics.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_sha256": "6f438640ce9bac39edcebf7e2e811e9afae5856658e1f95633f279c3bceb22c9",
+      "export_sha256": "6f438640ce9bac39edcebf7e2e811e9afae5856658e1f95633f279c3bceb22c9",
+      "unchanged": true
+    },
+    {
+      "path": "results/development/scale_comparison.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "experiments/retention_scale_20261018/reports/completed09/comparison.json",
+      "source_sha256": "2e6867cfffb7614dff30345ed1cdc4f88cc37106ebd27a8a235764ca78ac076a",
+      "transformation": "Machine command/paths omitted where present; all numerical results retained."
+    },
+    {
+      "path": "results/selected_models/summary.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "evaluation_only/test_retention_scale_selected_20261019/summary.json",
+      "source_sha256": "25458e9330249c6c0216decf41bffca0484e2b411a3a6de25584529fd5fe3337",
+      "transformation": "Machine command/paths omitted where present; all numerical results retained."
+    },
+    {
+      "path": "results/selected_models/selection.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "evaluation_only/test_retention_scale_selected_20261019/selection.json",
+      "source_sha256": "18798f97c9dc2555eae551db772e2a7f199871638a1d7ebb6497eee5302e544e",
+      "transformation": "Machine command/paths omitted where present; all numerical results retained."
+    },
+    {
+      "path": "results/lambda1/summary.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "evaluation_only/test_retention_lambda1_scale_20261019/summary.json",
+      "source_sha256": "447a8ec9d8878b5afdcef859e6397c47af1b941a562947e0486d4f1066c0d0eb",
+      "transformation": "Machine command/paths omitted where present; all numerical results retained."
+    },
+    {
+      "path": "results/seeds/summary.json",
+      "source_commit": "a2d6df8254a99f10f75ad4a2e5be10414ab3ca3b",
+      "source_path": "evaluation_only/test_seed_stability_20261023/summary.json",
+      "source_sha256": "30ec0f45500e940174639cec60cb43b8f1b4e24605a6f352d0f074628f60455c",
+      "transformation": "Machine command/paths omitted where present; all numerical results retained."
+    }
+  ],
+  "preparation_is_not_new_training_or_inference": true,
+  "publication_path_changes": []
+}

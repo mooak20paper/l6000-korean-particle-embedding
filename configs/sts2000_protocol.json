@@ -1,0 +1,245 @@
+{
+  "status": "FROZEN_PREPARED_NOT_EXECUTED",
+  "created_at_utc": "2026-11-03T10:58:04.733030+00:00",
+  "models": {
+    "baseline": {
+      "repo": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+          "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+          "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+          "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+          "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {},
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38"
+    },
+    "kure-v1": {
+      "repo": "nlpai-lab/KURE-v1",
+      "revision": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config.json",
+          "sha256": "852d42e020c7f989c2acaf30fc683b7f768e8c6d1ab17166e835442162bd825d"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/1_Pooling/config.json",
+          "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/README.md",
+          "sha256": "31eee15f3a8169b6749a4ac61c56e63ad5a6d9dbb6c96d4c6fae3c0522c61d6d"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/nlpai-lab/KURE-v1/resolve/8b418a58414668e75532ed045c22d9ca018ae2b2/config_sentence_transformers.json",
+          "sha256": "8c73684c2160f2209f3706d6cbe0e933287fe6945d9546042be4c105cdb5252e"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {},
+      "weight_file": "model.safetensors",
+      "weight_sha256": "c18156e80caf8ff45eb84a24a853130c3bca03087ccb41b051f86e7556bae02c"
+    },
+    "bge-m3-ko": {
+      "repo": "dragonkue/BGE-m3-ko",
+      "revision": "7074d66aa46562342193ca4feb3d89bf9dad71b4",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config.json",
+          "sha256": "a20b07ed6fb38e0ad84c645ca45a5ad8ef7e06868d89d41e04417532b17d04bc"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/1_Pooling/config.json",
+          "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/README.md",
+          "sha256": "da9c6bdfd0632cdab10fa10f7f2306b3f2ba965030aaafc8b089a5a9369ff314"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/dragonkue/BGE-m3-ko/resolve/7074d66aa46562342193ca4feb3d89bf9dad71b4/config_sentence_transformers.json",
+          "sha256": "73974c2b1c9e4727b4eb2a05dc8255882beec90f53a4d7bab6566c5b6aac7b39"
+        }
+      },
+      "license": "apache-2.0",
+      "default_prompt_name": null,
+      "prompts": {},
+      "weight_file": "model.safetensors",
+      "weight_sha256": "da164fa90633e730db4ee91a79ebf99a0826fb31d6f002c4a8ec7952a286c4f4"
+    },
+    "bge-m3-korean": {
+      "repo": "upskyy/bge-m3-korean",
+      "revision": "069ae0627320935e4b2879522edbb54650b59bf5",
+      "pooling": "mean",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/config.json",
+          "sha256": "f4e0c99ae06933e23d32ffc9952095d7af8ed89a95db5a25577891b24f0f9a5f"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/modules.json",
+          "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/1_Pooling/config.json",
+          "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/upskyy/bge-m3-korean/resolve/069ae0627320935e4b2879522edbb54650b59bf5/README.md",
+          "sha256": "2a7345e0f7b03451d44fd6b4466498ef12ce00864cddf985e522c2de9f2320a3"
+        }
+      },
+      "license": "not declared in pinned model-card metadata; do not assume inherited license",
+      "default_prompt_name": null,
+      "prompts": {},
+      "weight_file": "model.safetensors",
+      "weight_sha256": "8f36f5b113e21e68f8440a44fb9355569d81ab1d213d156d02bedc2ef0b508b3"
+    },
+    "l6000": {
+      "repo": "BAAI/bge-m3",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "pooling": "cls",
+      "dimension": 1024,
+      "prefix": "",
+      "metadata": {
+        "config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+          "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa"
+        },
+        "modules.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/modules.json",
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+        },
+        "1_Pooling/config.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/1_Pooling/config.json",
+          "sha256": "e54c164a07274f2eb45bb724f54a79d1efcc90c41573887cd9a29aeee0597352"
+        },
+        "README.md": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+          "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450"
+        },
+        "config_sentence_transformers.json": {
+          "source": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config_sentence_transformers.json",
+          "sha256": "1eef72430e7194a1e59680e635aed81ffa083f05668dbc5bb1c56c04c0999c38"
+        }
+      },
+      "license": "mit",
+      "default_prompt_name": null,
+      "prompts": {},
+      "adapter_sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1",
+      "run_id": "retain6000_lambda10_C_seed17_20261018",
+      "lambda": 10,
+      "step": 1500,
+      "seed": 17,
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "b5e0ce3470abf5ef3831aa1bd5553b486803e83251590ab7ff35a117cf6aad38"
+    }
+  },
+  "execution_order": [
+    "baseline",
+    "l6000",
+    "kure-v1",
+    "bge-m3-ko",
+    "bge-m3-korean"
+  ],
+  "device": "cuda required",
+  "dtype": "float32",
+  "max_tokens": 160,
+  "truncation": false,
+  "batch_size": 12,
+  "tie_epsilon": 1e-06,
+  "seed": 17,
+  "bootstrap_replicates": 10000,
+  "cosine": "float64 renormalized vectors",
+  "attention": "SDPA math; TF32 disabled",
+  "no_training": true,
+  "reproduction_gate": {
+    "reference": "2026-10-21 CPU reproduction",
+    "correctness_disagreements": 0,
+    "max_cosine_absolute_difference": 0.0001,
+    "spearman_absolute_difference": 0.0001,
+    "reason": "Pre-inference numerical tolerance across CPU/GPU FP32; exact deltas also reported."
+  },
+  "model_identity_correction": "Original handoff mislabels unpreserved C6000 as L6000. Use frozen lambda10 adapter ac321bf...; original handoff retained as history.",
+  "scope": "Repeated existing Test600/KLUE519; not independent confirmation; native pooling system comparison; no model selection.",
+  "statistics": "All ten pairwise exact McNemar; Holm across ten. Paired bootstrap10000 seed17, 50 Test strata; paired KLUE pairs. Individual95% intervals.",
+  "input_policy": "All data, references, vectors and results permanently evaluation-only.",
+  "experiment_id": "external_bgem3_klue2000_20261104",
+  "authorization": "User requested five frozen models on the existing heldout 2000 pairs on 2026-11-03/04; evaluation only, never selection or training.",
+  "input_files": {
+    "klue2000.json": {
+      "source_path": "evaluation_only/external_sts/klue_sts_additional_holdout_20261019/additional_sts2000.json",
+      "sha256": "7883153d5898e3e0726d7ce0def135e6a1bd970b7c1a7ad6802aea1d36f1a702"
+    },
+    "klue519.json": {
+      "source_path": "evaluation_only/external_sts/klue_sts_dev519_final_candidate_v1_20261017/klue-sts-v1.1_dev.json",
+      "sha256": "b6a0ae0c370e21687f7eef0fdea872a328bb2ecbdb020c546cb870d28606bf80"
+    }
+  },
+  "evaluation": {
+    "primary": "Spearman on 2000 heldout pairs",
+    "secondary": "Pearson; retention and relative drop versus same-run Baseline",
+    "reproduction": "Re-score 519 only as same-day model/precision/pooling reproduction gate, not added to 2000.",
+    "batch_size": 12,
+    "max_tokens": 160,
+    "truncation": false,
+    "device": "CUDA",
+    "precision": "FP32; TF32 off; FP64 cosine",
+    "bootstrap": {
+      "paired_replicates": 10000,
+      "seed": 17,
+      "CI": "pointwise percentile 95%"
+    }
+  },
+  "interpretation": [
+    "Repeated heldout comparison, not an official KLUE test or unseen confirmation.",
+    "No training, retention-target construction, checkpoint selection or hyperparameter tuning.",
+    "Public models may have seen source data in their pretraining.",
+    "No new Test600 inference; its existing accuracy must not be relabelled as a new result."
+  ],
+  "prior_gpu_run": {
+    "path": "outputs/external_bgem3_korean_20261103/run_colab_20261103T120144Z",
+    "protocol_sha256": "8c1b03f6432ee660f363c52767324cdfad1c6b0e64af61deca19e1cbb178c34e",
+    "summary_sha256": "3e1351cd583e3a1c0022419051bab78b3041724d087a47e3292863a096d63ef2",
+    "environment_sha256": "728fe62f51b4c624ad47c6ae740bd28787039a4fbc0ee11eee9b9a7c7da629a7"
+  }
+}

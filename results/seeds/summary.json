@@ -1,0 +1,1690 @@
+{
+  "status": "VERIFIED",
+  "finished_at_utc": "2026-10-23T11:01:54.576640+00:00",
+  "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+  "models": {
+    "baseline": {
+      "test": {
+        "n": 600,
+        "correct": 261,
+        "accuracy": 0.435,
+        "macro_accuracy_10": 0.435,
+        "ties": 0,
+        "mean_cosine_margin": -0.005482473701909686,
+        "accuracy_95ci": [
+          0.39666666666666667,
+          0.47333333333333333
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8772886175882912,
+        "pearson": 0.8714629477735413,
+        "spearman_95ci": [
+          0.8523554399712147,
+          0.8974549543854354
+        ],
+        "baseline_relative_decline_percent": 0.0
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 54,
+            "accuracy": 0.45
+          },
+          "법률": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 50,
+            "accuracy": 0.4166666666666667
+          },
+          "계약": {
+            "n": 120,
+            "correct": 52,
+            "accuracy": 0.43333333333333335
+          },
+          "의료": {
+            "n": 120,
+            "correct": 53,
+            "accuracy": 0.44166666666666665
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 36,
+            "accuracy": 0.6
+          },
+          "T2": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35
+          },
+          "T3": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35
+          },
+          "T4": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665
+          },
+          "T5": {
+            "n": 60,
+            "correct": 23,
+            "accuracy": 0.38333333333333336
+          },
+          "T6": {
+            "n": 60,
+            "correct": 25,
+            "accuracy": 0.4166666666666667
+          },
+          "T7": {
+            "n": 60,
+            "correct": 38,
+            "accuracy": 0.6333333333333333
+          },
+          "T8": {
+            "n": 60,
+            "correct": 30,
+            "accuracy": 0.5
+          },
+          "T9": {
+            "n": 60,
+            "correct": 29,
+            "accuracy": 0.48333333333333334
+          },
+          "T10": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 13,
+            "accuracy": 0.43333333333333335
+          },
+          "C1": {
+            "n": 30,
+            "correct": 23,
+            "accuracy": 0.7666666666666667
+          },
+          "C3": {
+            "n": 60,
+            "correct": 21,
+            "accuracy": 0.35
+          },
+          "C4": {
+            "n": 30,
+            "correct": 12,
+            "accuracy": 0.4
+          },
+          "A2": {
+            "n": 30,
+            "correct": 9,
+            "accuracy": 0.3
+          },
+          "A1": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665
+          },
+          "A3": {
+            "n": 60,
+            "correct": 23,
+            "accuracy": 0.38333333333333336
+          },
+          "L2": {
+            "n": 20,
+            "correct": 10,
+            "accuracy": 0.5
+          },
+          "L3": {
+            "n": 20,
+            "correct": 6,
+            "accuracy": 0.3
+          },
+          "L1": {
+            "n": 20,
+            "correct": 9,
+            "accuracy": 0.45
+          },
+          "L4": {
+            "n": 60,
+            "correct": 38,
+            "accuracy": 0.6333333333333333
+          },
+          "L5": {
+            "n": 60,
+            "correct": 30,
+            "accuracy": 0.5
+          },
+          "L6": {
+            "n": 60,
+            "correct": 29,
+            "accuracy": 0.48333333333333334
+          },
+          "L7": {
+            "n": 60,
+            "correct": 19,
+            "accuracy": 0.31666666666666665
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 80,
+            "accuracy": 0.1909307875894988
+          }
+        }
+      },
+      "inference": {
+        "model": "baseline",
+        "sentences": 2838,
+        "seconds": 19.92087456300004,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "ac80fb1dcc1df07acad74a3fe3372ac392329907276df30702e68c102bbb5c00",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2354320896
+      }
+    },
+    "L6000": {
+      "test": {
+        "n": 600,
+        "correct": 570,
+        "accuracy": 0.95,
+        "macro_accuracy_10": 0.95,
+        "ties": 0,
+        "mean_cosine_margin": 0.36927607457476874,
+        "accuracy_95ci": [
+          0.9333333333333333,
+          0.965
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8337258772367055,
+        "pearson": 0.8100393638566059,
+        "spearman_95ci": [
+          0.8033496532428942,
+          0.8589824793190577
+        ],
+        "baseline_relative_decline_percent": 4.965611029052419
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667
+          },
+          "법률": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 113,
+            "accuracy": 0.9416666666666667
+          },
+          "계약": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95
+          },
+          "의료": {
+            "n": 120,
+            "correct": 113,
+            "accuracy": 0.9416666666666667
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T2": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T3": {
+            "n": 60,
+            "correct": 41,
+            "accuracy": 0.6833333333333333
+          },
+          "T4": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "T5": {
+            "n": 60,
+            "correct": 55,
+            "accuracy": 0.9166666666666666
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T8": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T9": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T10": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C1": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C3": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "C4": {
+            "n": 30,
+            "correct": 27,
+            "accuracy": 0.9
+          },
+          "A2": {
+            "n": 30,
+            "correct": 14,
+            "accuracy": 0.4666666666666667
+          },
+          "A1": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "A3": {
+            "n": 60,
+            "correct": 55,
+            "accuracy": 0.9166666666666666
+          },
+          "L2": {
+            "n": 20,
+            "correct": 19,
+            "accuracy": 0.95
+          },
+          "L3": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L1": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L4": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "L5": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L6": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 389,
+            "accuracy": 0.9284009546539379
+          }
+        }
+      },
+      "inference": {
+        "model": "L6000",
+        "sentences": 2838,
+        "seconds": 22.524050097999975,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "58f4581b7ae2e0ede9861c4291f83db0c5fbf9044d6e0cac45714966e6a1d326",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2360612352
+      }
+    },
+    "seed42": {
+      "test": {
+        "n": 600,
+        "correct": 567,
+        "accuracy": 0.945,
+        "macro_accuracy_10": 0.945,
+        "ties": 0,
+        "mean_cosine_margin": 0.3968299926105163,
+        "accuracy_95ci": [
+          0.93,
+          0.96
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8343360918721296,
+        "pearson": 0.8055240832537379,
+        "spearman_95ci": [
+          0.8042698150182813,
+          0.8588602439855852
+        ],
+        "baseline_relative_decline_percent": 4.896054143987428
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 115,
+            "accuracy": 0.9583333333333334
+          },
+          "법률": {
+            "n": 120,
+            "correct": 115,
+            "accuracy": 0.9583333333333334
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667
+          },
+          "계약": {
+            "n": 120,
+            "correct": 110,
+            "accuracy": 0.9166666666666666
+          },
+          "의료": {
+            "n": 120,
+            "correct": 111,
+            "accuracy": 0.925
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T2": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "T3": {
+            "n": 60,
+            "correct": 38,
+            "accuracy": 0.6333333333333333
+          },
+          "T4": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "T5": {
+            "n": 60,
+            "correct": 56,
+            "accuracy": 0.9333333333333333
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T7": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T8": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T9": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T10": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C1": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C3": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "C4": {
+            "n": 30,
+            "correct": 25,
+            "accuracy": 0.8333333333333334
+          },
+          "A2": {
+            "n": 30,
+            "correct": 13,
+            "accuracy": 0.43333333333333335
+          },
+          "A1": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "A3": {
+            "n": 60,
+            "correct": 56,
+            "accuracy": 0.9333333333333333
+          },
+          "L2": {
+            "n": 20,
+            "correct": 19,
+            "accuracy": 0.95
+          },
+          "L3": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L1": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L4": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L5": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L6": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 386,
+            "accuracy": 0.9212410501193318
+          }
+        }
+      },
+      "inference": {
+        "model": "seed42",
+        "sentences": 2838,
+        "seconds": 23.806329594000033,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "a46a52cabcf274bbbfd3afcb48c4155b67597a89d2c4ddde46abf496bc1d6634",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2366903808
+      }
+    },
+    "seed123": {
+      "test": {
+        "n": 600,
+        "correct": 580,
+        "accuracy": 0.9666666666666667,
+        "macro_accuracy_10": 0.9666666666666667,
+        "ties": 0,
+        "mean_cosine_margin": 0.3474790386822941,
+        "accuracy_95ci": [
+          0.9533333333333334,
+          0.98
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8372580052407246,
+        "pearson": 0.8077334317377224,
+        "spearman_95ci": [
+          0.8073116583507451,
+          0.8621280065657313
+        ],
+        "baseline_relative_decline_percent": 4.562992331715499
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 119,
+            "accuracy": 0.9916666666666667
+          },
+          "법률": {
+            "n": 120,
+            "correct": 117,
+            "accuracy": 0.975
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 115,
+            "accuracy": 0.9583333333333334
+          },
+          "계약": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667
+          },
+          "의료": {
+            "n": 120,
+            "correct": 113,
+            "accuracy": 0.9416666666666667
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T2": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "T3": {
+            "n": 60,
+            "correct": 49,
+            "accuracy": 0.8166666666666667
+          },
+          "T4": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T5": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T8": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T9": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T10": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C1": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C3": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "C4": {
+            "n": 30,
+            "correct": 26,
+            "accuracy": 0.8666666666666667
+          },
+          "A2": {
+            "n": 30,
+            "correct": 23,
+            "accuracy": 0.7666666666666667
+          },
+          "A1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "A3": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "L2": {
+            "n": 20,
+            "correct": 19,
+            "accuracy": 0.95
+          },
+          "L3": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L1": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L4": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "L5": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L6": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L7": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 399,
+            "accuracy": 0.9522673031026253
+          }
+        }
+      },
+      "inference": {
+        "model": "seed123",
+        "sentences": 2838,
+        "seconds": 22.058925267000006,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "a6c6568d107ecddf635d4523a119685b159f3f77ee96096cb3d581210803e76b",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2373195264
+      }
+    },
+    "seed2026": {
+      "test": {
+        "n": 600,
+        "correct": 569,
+        "accuracy": 0.9483333333333334,
+        "macro_accuracy_10": 0.9483333333333334,
+        "ties": 0,
+        "mean_cosine_margin": 0.36620912786215315,
+        "accuracy_95ci": [
+          0.9316666666666666,
+          0.9633333333333334
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8272987065985999,
+        "pearson": 0.7909933608185609,
+        "spearman_95ci": [
+          0.7956780610171483,
+          0.8535985579897275
+        ],
+        "baseline_relative_decline_percent": 5.698228608860334
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667
+          },
+          "법률": {
+            "n": 120,
+            "correct": 115,
+            "accuracy": 0.9583333333333334
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95
+          },
+          "계약": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95
+          },
+          "의료": {
+            "n": 120,
+            "correct": 110,
+            "accuracy": 0.9166666666666666
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T2": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "T3": {
+            "n": 60,
+            "correct": 44,
+            "accuracy": 0.7333333333333333
+          },
+          "T4": {
+            "n": 60,
+            "correct": 56,
+            "accuracy": 0.9333333333333333
+          },
+          "T5": {
+            "n": 60,
+            "correct": 55,
+            "accuracy": 0.9166666666666666
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T7": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T8": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T9": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T10": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C1": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C3": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "C4": {
+            "n": 30,
+            "correct": 27,
+            "accuracy": 0.9
+          },
+          "A2": {
+            "n": 30,
+            "correct": 17,
+            "accuracy": 0.5666666666666667
+          },
+          "A1": {
+            "n": 60,
+            "correct": 56,
+            "accuracy": 0.9333333333333333
+          },
+          "A3": {
+            "n": 60,
+            "correct": 55,
+            "accuracy": 0.9166666666666666
+          },
+          "L2": {
+            "n": 20,
+            "correct": 19,
+            "accuracy": 0.95
+          },
+          "L3": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L1": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L4": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L5": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L6": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "L7": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 388,
+            "accuracy": 0.9260143198090692
+          }
+        }
+      },
+      "inference": {
+        "model": "seed2026",
+        "sentences": 2838,
+        "seconds": 21.60935621899995,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "7bd9e99402dcd5f8b57243544b584637d0a5ca37cb17a3f4b028eed37e095719",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2379486720
+      }
+    },
+    "seed3407": {
+      "test": {
+        "n": 600,
+        "correct": 579,
+        "accuracy": 0.965,
+        "macro_accuracy_10": 0.965,
+        "ties": 0,
+        "mean_cosine_margin": 0.41911777215307483,
+        "accuracy_95ci": [
+          0.9516666666666667,
+          0.9783333333333334
+        ]
+      },
+      "klue_sts": {
+        "n": 519,
+        "spearman": 0.8157645081974917,
+        "pearson": 0.7840305968428793,
+        "spearman_95ci": [
+          0.7828975395593835,
+          0.8432699135346858
+        ],
+        "baseline_relative_decline_percent": 7.012983886640667
+      },
+      "groups": {
+        "domain": {
+          "금융": {
+            "n": 120,
+            "correct": 115,
+            "accuracy": 0.9583333333333334
+          },
+          "법률": {
+            "n": 120,
+            "correct": 117,
+            "accuracy": 0.975
+          },
+          "비즈니스": {
+            "n": 120,
+            "correct": 117,
+            "accuracy": 0.975
+          },
+          "계약": {
+            "n": 120,
+            "correct": 114,
+            "accuracy": 0.95
+          },
+          "의료": {
+            "n": 120,
+            "correct": 116,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "grouped_type": {
+          "T1": {
+            "n": 60,
+            "correct": 60,
+            "accuracy": 1
+          },
+          "T2": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "T3": {
+            "n": 60,
+            "correct": 50,
+            "accuracy": 0.8333333333333334
+          },
+          "T4": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T5": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "T6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T8": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T9": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "T10": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "subtype": {
+          "C2": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C1": {
+            "n": 30,
+            "correct": 30,
+            "accuracy": 1
+          },
+          "C3": {
+            "n": 60,
+            "correct": 58,
+            "accuracy": 0.9666666666666667
+          },
+          "C4": {
+            "n": 30,
+            "correct": 29,
+            "accuracy": 0.9666666666666667
+          },
+          "A2": {
+            "n": 30,
+            "correct": 21,
+            "accuracy": 0.7
+          },
+          "A1": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "A3": {
+            "n": 60,
+            "correct": 57,
+            "accuracy": 0.95
+          },
+          "L2": {
+            "n": 20,
+            "correct": 19,
+            "accuracy": 0.95
+          },
+          "L3": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L1": {
+            "n": 20,
+            "correct": 20,
+            "accuracy": 1
+          },
+          "L4": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "L5": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "L6": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          },
+          "L7": {
+            "n": 60,
+            "correct": 59,
+            "accuracy": 0.9833333333333333
+          }
+        },
+        "positive_form": {
+          "simple": {
+            "n": 181,
+            "correct": 181,
+            "accuracy": 1
+          },
+          "diverse": {
+            "n": 419,
+            "correct": 398,
+            "accuracy": 0.9498806682577565
+          }
+        }
+      },
+      "inference": {
+        "model": "seed3407",
+        "sentences": 2838,
+        "seconds": 22.401595293000014,
+        "max_actual_tokens": 98,
+        "truncated": 0,
+        "embeddings_sha256": "07e4962a46aa1ec6866d36f49e2f58cef2cc49f6f99f1deea084ee2dd568a6bb",
+        "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d",
+        "peak_allocated_bytes": 2385778176
+      }
+    }
+  },
+  "development": {
+    "seed42": {
+      "final": {
+        "step": 1500,
+        "correct": 599,
+        "accuracy_percent": 99.83333333333333,
+        "macro_accuracy_percent": 99.83333333333333,
+        "korsts_spearman": 0.8260500363681903,
+        "sts_relative_decline_percent": 1.3076970442939242,
+        "eligible": true,
+        "mean_cosine_margin": 0.4519035885731379
+      },
+      "checkpoints": [
+        {
+          "step": 375,
+          "correct": 594,
+          "accuracy_percent": 99.0,
+          "macro_accuracy_percent": 99.01366120218579,
+          "korsts_spearman": 0.811997995985627,
+          "sts_relative_decline_percent": 2.986564141351475,
+          "eligible": true,
+          "mean_cosine_margin": 0.24384373461206754
+        },
+        {
+          "step": 750,
+          "correct": 599,
+          "accuracy_percent": 99.83333333333333,
+          "macro_accuracy_percent": 99.83333333333333,
+          "korsts_spearman": 0.8249442341506407,
+          "sts_relative_decline_percent": 1.4398127305825164,
+          "eligible": true,
+          "mean_cosine_margin": 0.314142289708058
+        },
+        {
+          "step": 1125,
+          "correct": 600,
+          "accuracy_percent": 100.0,
+          "macro_accuracy_percent": 100,
+          "korsts_spearman": 0.8218306378679712,
+          "sts_relative_decline_percent": 1.8118095516976014,
+          "eligible": true,
+          "mean_cosine_margin": 0.40742065568765007
+        },
+        {
+          "step": 1500,
+          "correct": 599,
+          "accuracy_percent": 99.83333333333333,
+          "macro_accuracy_percent": 99.83333333333333,
+          "korsts_spearman": 0.8260500363681903,
+          "sts_relative_decline_percent": 1.3076970442939242,
+          "eligible": true,
+          "mean_cosine_margin": 0.4519035885731379
+        }
+      ],
+      "resources": {
+        "training_seconds": 559.3312499560047,
+        "total_execution_seconds": 708.504735792,
+        "gpu_peak": {
+          "max_allocated_bytes": 3826611712,
+          "max_reserved_bytes": 4062183424
+        },
+        "optimizer_updates": 1498,
+        "skipped_steps": 2
+      }
+    },
+    "seed123": {
+      "final": {
+        "step": 1500,
+        "correct": 600,
+        "accuracy_percent": 100.0,
+        "macro_accuracy_percent": 100,
+        "korsts_spearman": 0.8255201502989089,
+        "sts_relative_decline_percent": 1.3710051662951392,
+        "eligible": true,
+        "mean_cosine_margin": 0.387744769603014
+      },
+      "checkpoints": [
+        {
+          "step": 375,
+          "correct": 593,
+          "accuracy_percent": 98.83333333333333,
+          "macro_accuracy_percent": 98.84972677595628,
+          "korsts_spearman": 0.8034125748904968,
+          "sts_relative_decline_percent": 4.012307065409938,
+          "eligible": true,
+          "mean_cosine_margin": 0.23560275743405024
+        },
+        {
+          "step": 750,
+          "correct": 599,
+          "accuracy_percent": 99.83333333333333,
+          "macro_accuracy_percent": 99.83333333333333,
+          "korsts_spearman": 0.8242061949739009,
+          "sts_relative_decline_percent": 1.527989938762545,
+          "eligible": true,
+          "mean_cosine_margin": 0.29301319087545075
+        },
+        {
+          "step": 1125,
+          "correct": 599,
+          "accuracy_percent": 99.83333333333333,
+          "macro_accuracy_percent": 99.83333333333333,
+          "korsts_spearman": 0.8204254949596755,
+          "sts_relative_decline_percent": 1.9796889579031631,
+          "eligible": true,
+          "mean_cosine_margin": 0.3779382965962092
+        },
+        {
+          "step": 1500,
+          "correct": 600,
+          "accuracy_percent": 100.0,
+          "macro_accuracy_percent": 100,
+          "korsts_spearman": 0.8255201502989089,
+          "sts_relative_decline_percent": 1.3710051662951392,
+          "eligible": true,
+          "mean_cosine_margin": 0.387744769603014
+        }
+      ],
+      "resources": {
+        "training_seconds": 559.0978007400015,
+        "total_execution_seconds": 690.2244091050002,
+        "gpu_peak": {
+          "max_allocated_bytes": 3826644480,
+          "max_reserved_bytes": 4062183424
+        },
+        "optimizer_updates": 1497,
+        "skipped_steps": 3
+      }
+    },
+    "seed2026": {
+      "final": {
+        "step": 1500,
+        "correct": 600,
+        "accuracy_percent": 100.0,
+        "macro_accuracy_percent": 100,
+        "korsts_spearman": 0.8197731391773048,
+        "sts_relative_decline_percent": 2.057629145148634,
+        "eligible": true,
+        "mean_cosine_margin": 0.4149787812928359
+      },
+      "checkpoints": [
+        {
+          "step": 375,
+          "correct": 593,
+          "accuracy_percent": 98.83333333333333,
+          "macro_accuracy_percent": 98.84972677595628,
+          "korsts_spearman": 0.8075007606814802,
+          "sts_relative_decline_percent": 3.523871192448949,
+          "eligible": true,
+          "mean_cosine_margin": 0.22688646425803502
+        },
+        {
+          "step": 750,
+          "correct": 600,
+          "accuracy_percent": 100.0,
+          "macro_accuracy_percent": 100,
+          "korsts_spearman": 0.8161060410796706,
+          "sts_relative_decline_percent": 2.4957555787617722,
+          "eligible": true,
+          "mean_cosine_margin": 0.3013216337561607
+        },
+        {
+          "step": 1125,
+          "correct": 600,
+          "accuracy_percent": 100.0,
+          "macro_accuracy_percent": 100,
+          "korsts_spearman": 0.8226809062657013,
+          "sts_relative_decline_percent": 1.7102237607552295,
+          "eligible": true,
+          "mean_cosine_margin": 0.33753709092736245
+        },
+        {
+          "step": 1500,
+          "correct": 600,
+          "accuracy_percent": 100.0,
+          "macro_accuracy_percent": 100,
+          "korsts_spearman": 0.8197731391773048,
+          "sts_relative_decline_percent": 2.057629145148634,
+          "eligible": true,
+          "mean_cosine_margin": 0.4149787812928359
+        }
+      ],
+      "resources": {
+        "training_seconds": 563.1074133880093,
+        "total_execution_seconds": 687.0010625539999,
+        "gpu_peak": {
+          "max_allocated_bytes": 3826644480,
+          "max_reserved_bytes": 4062183424
+        },
+        "optimizer_updates": 1498,
+        "skipped_steps": 2
+      }
+    },
+    "seed3407": {
+      "final": {
+        "step": 1500,
+        "correct": 597,
+        "accuracy_percent": 99.5,
+        "macro_accuracy_percent": 99.49708252292304,
+        "korsts_spearman": 0.813632103175364,
+        "sts_relative_decline_percent": 2.7913292345888188,
+        "eligible": true,
+        "mean_cosine_margin": 0.4669983018934727
+      },
+      "checkpoints": [
+        {
+          "step": 375,
+          "correct": 594,
+          "accuracy_percent": 99.0,
+          "macro_accuracy_percent": 99.01366120218579,
+          "korsts_spearman": 0.812117710678411,
+          "sts_relative_decline_percent": 2.9722612320744077,
+          "eligible": true,
+          "mean_cosine_margin": 0.22586899558703105
+        },
+        {
+          "step": 750,
+          "correct": 598,
+          "accuracy_percent": 99.66666666666667,
+          "macro_accuracy_percent": 99.66657404834677,
+          "korsts_spearman": 0.8169616237197369,
+          "sts_relative_decline_percent": 2.393534868878001,
+          "eligible": true,
+          "mean_cosine_margin": 0.32690527950723963
+        },
+        {
+          "step": 1125,
+          "correct": 599,
+          "accuracy_percent": 99.83333333333333,
+          "macro_accuracy_percent": 99.8360655737705,
+          "korsts_spearman": 0.8181910153808069,
+          "sts_relative_decline_percent": 2.2466533375860473,
+          "eligible": true,
+          "mean_cosine_margin": 0.39408758118748666
+        },
+        {
+          "step": 1500,
+          "correct": 597,
+          "accuracy_percent": 99.5,
+          "macro_accuracy_percent": 99.49708252292304,
+          "korsts_spearman": 0.813632103175364,
+          "sts_relative_decline_percent": 2.7913292345888188,
+          "eligible": true,
+          "mean_cosine_margin": 0.4669983018934727
+        }
+      ],
+      "resources": {
+        "training_seconds": 569.0729885940045,
+        "total_execution_seconds": 696.7375522929997,
+        "gpu_peak": {
+          "max_allocated_bytes": 3826644480,
+          "max_reserved_bytes": 4062183424
+        },
+        "optimizer_updates": 1498,
+        "skipped_steps": 2
+      }
+    }
+  },
+  "four_new_seed_summary": {
+    "test_accuracy_percent": {
+      "mean": 95.625,
+      "sample_sd": 1.1169982923823938,
+      "min": 94.5,
+      "max": 96.66666666666667,
+      "n_runs": 4
+    },
+    "klue_spearman": {
+      "mean": 0.8286643279772364,
+      "sample_sd": 0.009561911710672543,
+      "min": 0.8157645081974917,
+      "max": 0.8372580052407246,
+      "n_runs": 4
+    },
+    "klue_relative_decline_percent": {
+      "mean": 5.542564742800982,
+      "sample_sd": 1.0899391054404313,
+      "min": 4.562992331715499,
+      "max": 7.012983886640667,
+      "n_runs": 4
+    },
+    "validation_macro_percent": {
+      "mean": 99.83260396406409,
+      "sample_sd": 0.23707807092391378,
+      "min": 99.49708252292304,
+      "max": 100,
+      "n_runs": 4
+    },
+    "korsts_dev_spearman": {
+      "mean": 0.821243857254942,
+      "sample_sd": 0.005816294688154549,
+      "min": 0.813632103175364,
+      "max": 0.8260500363681903,
+      "n_runs": 4
+    },
+    "each_run_klue_relative5_pass": {
+      "seed42": true,
+      "seed123": true,
+      "seed2026": false,
+      "seed3407": false
+    },
+    "unit_of_replication": "four independent new training runs on one fixed train order and one fixed evaluation set; not 2400 independent test items"
+  },
+  "paired_comparisons": [
+    {
+      "reference": "baseline",
+      "model": "L6000",
+      "gain": 310,
+      "loss": 1,
+      "accuracy_difference_pp": 51.49999999999999,
+      "accuracy_difference_95ci_pp": [
+        47.66666666666667,
+        55.49999999999999
+      ],
+      "exact_mcnemar_p": 1.495739415207901e-91,
+      "klue_difference": -0.043562740351585694,
+      "klue_difference_95ci": [
+        -0.06323327361450408,
+        -0.025286811261209186
+      ],
+      "holm_p": 1.0470175906455307e-90
+    },
+    {
+      "reference": "baseline",
+      "model": "seed42",
+      "gain": 307,
+      "loss": 1,
+      "accuracy_difference_pp": 51.0,
+      "accuracy_difference_95ci_pp": [
+        47.16666666666667,
+        55.00000000000001
+      ],
+      "exact_mcnemar_p": 1.1850858443570293e-90,
+      "klue_difference": -0.042952525716161594,
+      "klue_difference_95ci": [
+        -0.06151477339897052,
+        -0.025695259949709087
+      ],
+      "holm_p": 5.9254292217851465e-90
+    },
+    {
+      "reference": "baseline",
+      "model": "seed123",
+      "gain": 320,
+      "loss": 1,
+      "accuracy_difference_pp": 53.16666666666667,
+      "accuracy_difference_95ci_pp": [
+        49.333333333333336,
+        57.16666666666668
+      ],
+      "exact_mcnemar_p": 1.5074997862108879e-94,
+      "klue_difference": -0.04003061234756666,
+      "klue_difference_95ci": [
+        -0.0570784093588291,
+        -0.02355597109634356
+      ],
+      "holm_p": 1.356749807589799e-93
+    },
+    {
+      "reference": "baseline",
+      "model": "seed2026",
+      "gain": 309,
+      "loss": 1,
+      "accuracy_difference_pp": 51.33333333333334,
+      "accuracy_difference_95ci_pp": [
+        47.5,
+        55.333333333333336
+      ],
+      "exact_mcnemar_p": 2.9818907572413925e-91,
+      "klue_difference": -0.0499899109896913,
+      "klue_difference_95ci": [
+        -0.07067690331149794,
+        -0.030971088856046824
+      ],
+      "holm_p": 1.7891344543448355e-90
+    },
+    {
+      "reference": "baseline",
+      "model": "seed3407",
+      "gain": 319,
+      "loss": 1,
+      "accuracy_difference_pp": 53.0,
+      "accuracy_difference_95ci_pp": [
+        49.16666666666667,
+        57.00000000000001
+      ],
+      "exact_mcnemar_p": 3.0056362197123913e-94,
+      "klue_difference": -0.06152410939079955,
+      "klue_difference_95ci": [
+        -0.08474777896308697,
+        -0.04031337958698789
+      ],
+      "holm_p": 2.404508975769913e-93
+    },
+    {
+      "reference": "L6000",
+      "model": "seed42",
+      "gain": 5,
+      "loss": 8,
+      "accuracy_difference_pp": -0.5000000000000004,
+      "accuracy_difference_95ci_pp": [
+        -1.6666666666666607,
+        0.6666666666666599
+      ],
+      "exact_mcnemar_p": 0.5810546875,
+      "klue_difference": 0.0006102146354241,
+      "klue_difference_95ci": [
+        -0.010111425690425476,
+        0.011680428296735525
+      ],
+      "holm_p": 1
+    },
+    {
+      "reference": "L6000",
+      "model": "seed123",
+      "gain": 14,
+      "loss": 4,
+      "accuracy_difference_pp": 1.6666666666666718,
+      "accuracy_difference_95ci_pp": [
+        0.33333333333332993,
+        3.0000000000000027
+      ],
+      "exact_mcnemar_p": 0.0308837890625,
+      "klue_difference": 0.0035321280040190306,
+      "klue_difference_95ci": [
+        -0.006013832084461273,
+        0.013225580224757642
+      ],
+      "holm_p": 0.12353515625
+    },
+    {
+      "reference": "L6000",
+      "model": "seed2026",
+      "gain": 6,
+      "loss": 7,
+      "accuracy_difference_pp": -0.1666666666666594,
+      "accuracy_difference_95ci_pp": [
+        -1.3333333333333308,
+        1.0000000000000009
+      ],
+      "exact_mcnemar_p": 1.0,
+      "klue_difference": -0.006427170638105606,
+      "klue_difference_95ci": [
+        -0.021068640156310034,
+        0.0064631611446764065
+      ],
+      "holm_p": 1
+    },
+    {
+      "reference": "L6000",
+      "model": "seed3407",
+      "gain": 16,
+      "loss": 7,
+      "accuracy_difference_pp": 1.5000000000000013,
+      "accuracy_difference_95ci_pp": [
+        0.0,
+        3.0000000000000027
+      ],
+      "exact_mcnemar_p": 0.0931396484375,
+      "klue_difference": -0.01796136903921386,
+      "klue_difference_95ci": [
+        -0.033354655582455074,
+        -0.0036611930809855547
+      ],
+      "holm_p": 0.2794189453125
+    }
+  ],
+  "runtime": {
+    "python": "3.13.15",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.20.0",
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "safetensors": "0.8.0"
+    },
+    "precision": "FP32 no autocast; TF32 disabled; SDPA math backend",
+    "protocol_sha256": "a789193413dc0407b585d79b34d3433ddaf70353a67afd6119a81f2d7ebc260d"
+  },
+  "limitations": [
+    "Previously exposed Test600 and KLUE519: exploratory repeated evaluation.",
+    "Four new random-seed replications; seed17 is a descriptive original reference.",
+    "Train order and retention order are frozen; this assesses initialization/dropout RNG variation, not split or batch-order variation.",
+    "No seed or checkpoint is selected using Test results."
+  ],
+  "no_model_reselection": true,
+  "permanent_evaluation_only": true
+}

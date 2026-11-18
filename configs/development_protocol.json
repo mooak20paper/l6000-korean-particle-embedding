@@ -1,0 +1,224 @@
+{
+  "registered_at_utc": "2026-10-18T14:56:59.286429+00:00",
+  "user_instruction": "기존 승인 자료로 먼저 비교: 2천개/4천개/6천개로 보존 손실을 유지하며 개발 평가 비교",
+  "scope": "Development scaling after earlier exploratory Test exposure",
+  "runs": [
+    {
+      "run_id": "retain2000_lambda0_C_seed17_20261018",
+      "n": 2000,
+      "lambda_retention": 0,
+      "manifest_sha256": "f787095f15dd15537099e2400eacf7b3c28cdd98b7c19c6e5d3c5d8a89e43be6",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        125,
+        250,
+        375,
+        500
+      ],
+      "retention_pair_exposures": 3400
+    },
+    {
+      "run_id": "retain2000_lambda1_C_seed17_20261018",
+      "n": 2000,
+      "lambda_retention": 1,
+      "manifest_sha256": "e1a833934795f6969e5ae7bc2fdf900e54293ed45e49d85346f02107cc00b879",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        125,
+        250,
+        375,
+        500
+      ],
+      "retention_pair_exposures": 3400
+    },
+    {
+      "run_id": "retain2000_lambda10_C_seed17_20261018",
+      "n": 2000,
+      "lambda_retention": 10,
+      "manifest_sha256": "1dbc9f864db1b356d02d85d8db1132fd6887648d27a053c846d624b148e98782",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        125,
+        250,
+        375,
+        500
+      ],
+      "retention_pair_exposures": 3400
+    },
+    {
+      "run_id": "retain4000_lambda0_C_seed17_20261018",
+      "n": 4000,
+      "lambda_retention": 0,
+      "manifest_sha256": "222fd8a0a38ae0cf6d18d602365704fa3ca67f692748c0086f33725c19c71fc9",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "retention_pair_exposures": 6700
+    },
+    {
+      "run_id": "retain4000_lambda1_C_seed17_20261018",
+      "n": 4000,
+      "lambda_retention": 1,
+      "manifest_sha256": "4bfa40ab97ff45a3dc1fc66eb0c5cc5c40fc25e12bed79689a08bbf39dcf0aef",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "retention_pair_exposures": 6700
+    },
+    {
+      "run_id": "retain4000_lambda10_C_seed17_20261018",
+      "n": 4000,
+      "lambda_retention": 10,
+      "manifest_sha256": "75124b0c3fcbf0f5bee5b635fcc5b6bab99c5323708501c75fd5c8931a138295",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        250,
+        500,
+        750,
+        1000
+      ],
+      "retention_pair_exposures": 6700
+    },
+    {
+      "run_id": "retain6000_lambda0_C_seed17_20261018",
+      "n": 6000,
+      "lambda_retention": 0,
+      "manifest_sha256": "cb8743721accffcea5d086910f703a348777696962406dfe630965df0957c54a",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        375,
+        750,
+        1125,
+        1500
+      ],
+      "retention_pair_exposures": 10000
+    },
+    {
+      "run_id": "retain6000_lambda1_C_seed17_20261018",
+      "n": 6000,
+      "lambda_retention": 1,
+      "manifest_sha256": "3be91391d6eed42e39743537e4e77a02835743feae4e24173dafbeea56eabe80",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        375,
+        750,
+        1125,
+        1500
+      ],
+      "retention_pair_exposures": 10000
+    },
+    {
+      "run_id": "retain6000_lambda10_C_seed17_20261018",
+      "n": 6000,
+      "lambda_retention": 10,
+      "manifest_sha256": "0a193e4aa2dfb0c69847dafbb9d0a15b9fb4dbe1bd7ac3ddf03329ff5623ccdd",
+      "preflight": {
+        "result": "PASS",
+        "retention_MSE_value_and_analytic_gradients": true,
+        "zero_deviation_zero_loss": true,
+        "C_objective_unchanged": true
+      },
+      "checkpoints": [
+        375,
+        750,
+        1125,
+        1500
+      ],
+      "retention_pair_exposures": 10000
+    }
+  ],
+  "nested_train1200_2000_4000_6000": true,
+  "score_blind_whole_group_selection": true,
+  "fixed": {
+    "epochs": 1,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.1,
+    "lr": 0.0001,
+    "seed": 17,
+    "batch": 4,
+    "temperature": 0.05,
+    "arm": "C",
+    "retention_unique_pairs": 2000,
+    "teacher_batches": 300,
+    "teacher": "pinned BGE-M3 cosine; unchanged original batch layout",
+    "optimizer": "unchanged AdamW without schedule",
+    "precision": "T4 FP16 autocast/FP32 cosine"
+  },
+  "validation_sha256": "0d2fd17d5777967aedced46968c17543e0eddf5a5ce7c3ea30533f19e5415cd9",
+  "korsts_dev_sha256": "fc4089fd26aa954a79bc197dad7e2fcf490a65a05c923dc8f4369ebf7d558488",
+  "retention_pairs_sha256": "92eb8409502345de810c58b2e4871a254c2ecbe1efefd0c7bfbc0bf21237348d",
+  "train6000_parent_manifest_sha256": "17aca5d71a36e8c191abd9013e5ff876a0fd0d7a5159c317997b4ba4f9925bf4",
+  "train1200_manifest_sha256": "5ad45090e2a84ecc8f9fe30d17611a3745fb9ffbc0f8ac9e35b19e0beed94fe5",
+  "primary_comparison": "Fixed one-epoch endpoint by size within each lambda; same-size lambda0 controls.",
+  "secondary_comparison": "Prespecified quarter-epoch checkpoint candidates.",
+  "selection": {
+    "required_sts_baseline_retention": 0.9,
+    "primary": "macro_accuracy_10",
+    "ties": [
+      "KorSTS Spearman descending",
+      "smaller training size",
+      "earlier epoch fraction",
+      "smaller lambda",
+      "run_id"
+    ]
+  },
+  "test_and_klue_evaluation_allowed": false,
+  "prior_final_selection_preserved": true,
+  "human_review_changed": false,
+  "limitations": [
+    "One seed and constrained nested subset.",
+    "At one epoch, rows, optimizer steps and repeated retention exposures grow together.",
+    "Retention and development STS share the KorSTS source family.",
+    "Current Validation positives are mostly simple reformulations; ceiling limits sensitivity.",
+    "Previous Test/KLUE exposures prevent an independent final-confirmation claim."
+  ]
+}

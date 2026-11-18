@@ -1,0 +1,88 @@
+{
+  "run_id": "retain6000_lambda10_C_seed17_20261018",
+  "training_authorized": true,
+  "train_rows": 6000,
+  "retention_pairs": 2000,
+  "validation_rows": 600,
+  "korsts_dev_rows": 1376,
+  "test_included": false,
+  "final_external_sts_included": false,
+  "files": {
+    "batches.jsonl": {
+      "sha256": "753d45ae28a3ef78a9774ebed0be105148e02c5328cd0b9bfa135d7bbabe6ba1",
+      "size": 342783
+    },
+    "common_training.py": {
+      "sha256": "1f7b2d9d3cc41268dc642eb543cd6a43de5f0355bbedac51a3fd61de26c1d7c5",
+      "size": 21800
+    },
+    "data_isolation_check.json": {
+      "sha256": "97a18ce9035a22fc3f95cae56a0b90297411ee36dbf20e7bcc8b8961fab30e1b",
+      "size": 483
+    },
+    "dataset_use_policy.json": {
+      "sha256": "c9836346b4ad4141b269e04081a68a57e6f666a6b0deba8b468468f0e30da2fe",
+      "size": 341
+    },
+    "external_sts_manifest.json": {
+      "sha256": "2b906f2d374f332b54007e5312163d9a43228026be36bda6377bcebdd4738b8c",
+      "size": 17108
+    },
+    "korsts_dev.jsonl": {
+      "sha256": "fc4089fd26aa954a79bc197dad7e2fcf490a65a05c923dc8f4369ebf7d558488",
+      "size": 425009
+    },
+    "KorSTS_LICENSE": {
+      "sha256": "73c55d92eee00d4b03241b6f57a607ce5dc9ab1127bd0ce21a99e4b134b11397",
+      "size": 20138
+    },
+    "mask_policy.json": {
+      "sha256": "4cba3148b848654c4fab4872b83bb0a46a6ddf9efe86ef518051209513fcc35a",
+      "size": 951
+    },
+    "official_guard.json": {
+      "sha256": "980b181273abe28a52fd5530040b485349361867a9bf950fb1bd12254ef0fcd3",
+      "size": 405
+    },
+    "official_retention_guard.json": {
+      "sha256": "d8db86daadd1b782e0fa93507a321505674258f6a9f36cab5895f44fdf545359",
+      "size": 409
+    },
+    "retention_batches.jsonl": {
+      "sha256": "e07f2767434c8788ab9ac44f3e1d923c58bf9bebd6fb3b24f49cc4e307e5c0d9",
+      "size": 91343
+    },
+    "retention_pairs2000.jsonl": {
+      "sha256": "92eb8409502345de810c58b2e4871a254c2ecbe1efefd0c7bfbc0bf21237348d",
+      "size": 1196890
+    },
+    "run_config.json": {
+      "sha256": "ec9e703a7c97082192bd3a188b91d5542d3e71dd1791f91c5b5d8285b3de4ce8",
+      "size": 4782
+    },
+    "source_manifest.json": {
+      "sha256": "2b3f456910ae3e0c0ef91127725420b2aee49121e220bd03dfcbd04678211c8e",
+      "size": 85067
+    },
+    "stage.json": {
+      "sha256": "bab10db5b653bb8e8e53d79481ce855b014e02e06eec443d8803e4e25365f4ee",
+      "size": 273073
+    },
+    "teacher_batches.jsonl": {
+      "sha256": "0b2adb38b4a88b74896c895d99a4c7727bbe2b953e7112e34ba7d29a1579681b",
+      "size": 20682
+    },
+    "train.jsonl": {
+      "sha256": "a5d3837c937aa2098105d0d8a9c287ddb4beddfca20959304ecdef78dbcb2934",
+      "size": 14062650
+    },
+    "train_retention.py": {
+      "sha256": "e096f770ccf37b3b6ae418ac893ae37e9a59a58f14f4979e077e73d769487de1",
+      "size": 15438
+    },
+    "validation600.jsonl": {
+      "sha256": "0d2fd17d5777967aedced46968c17543e0eddf5a5ce7c3ea30533f19e5415cd9",
+      "size": 940460
+    }
+  }
+}
