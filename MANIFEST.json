@@ -1,5 +1,5 @@
 {
-  "version": "l6000-public-20261119",
+  "version": "l6000-public-history46-20261119",
   "scope": "Explicit public payload; raw sentences, review records and previous Git history excluded.",
   "files": {
     ".gitattributes": {
@@ -163,8 +163,8 @@
       "sha256": "ac321bf43f009a5789f266ecc6be5caf8d1129a9a07eea7f9ff066e34f9f9ee1"
     },
     "README.md": {
-      "bytes": 2700,
-      "sha256": "d69d522423bd8eeabdaab3266ab7510a03e54d17d6d1c2262f1ed6ed646a7acf"
+      "bytes": 2790,
+      "sha256": "f7ee268e2fa68457db12aa6269048fc1a998985a0d56fb27c9e5fe467dc794b2"
     },
     "RELEASE_STATUS.json": {
       "bytes": 721,
@@ -285,6 +285,14 @@
     "verify_release.py": {
       "bytes": 2341,
       "sha256": "ea857a807a4c0929eb6fd3a2e057aa1c5d91d0cf3868b8633d1a82cac022a28f"
+    },
+    "results/full_experiment_history/history46.csv": {
+      "bytes": 2799,
+      "sha256": "0cd95c5121e964c20becc4515edb77c5429eb8b34273c80c207cce0d3fac7a90"
+    },
+    "results/full_experiment_history/README.md": {
+      "bytes": 5128,
+      "sha256": "89d462072887908a047b901ad0dda04c27e6fdf6cac67bd8c0589327fd5a55f0"
     }
   }
 }

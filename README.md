@@ -10,6 +10,7 @@ L6000 논문의 공개 재현자료 저장소이다. 최종 LoRA 어댑터, 실�
 | 훈련·평가 코드 | [code](code/) |
 | L6000 설정 | [실제 설정](configs/L6000_run_config.json) |
 | Test 전 선정 규칙 | [선정 규칙](configs/selection_rule.json), [고정 선정 결과](results/selected_models/selection.json) |
+| 전체 학습 실행 이력 | [상세 이력 46건](results/full_experiment_history/) |
 | 학습량·보존 가중치 개발 비교 | [9조건 개발 결과](results/development/scale_comparison.json) |
 | Test600·KLUE-STS519 | [모델 비교](results/test519/paper_comparison.csv), [통계](results/test519/paired_statistics.json) |
 | 추가 KLUE-STS 2,000쌍 | [모델 비교](results/sts2000/paper_comparison.csv), [통계](results/sts2000/paired_statistics.json) |
